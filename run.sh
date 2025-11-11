@@ -19,8 +19,8 @@ python train.py \
   --using_clip_features \
   --using_hard_prompt \
   --bs 64 \
-  --lr 1e-5 \
-  --epochs 20 \
+  --lr 2e-5 \
+  --epochs 50 \
   --device cuda:0 \
   --clip_model "BAAI/AltCLIP-m18" \
   --language_model NlpHUST/gpt2-vietnamese \
@@ -30,6 +30,6 @@ python train.py \
   --path_of_datasets annotations/uit_viic_entities_with_features.pkl \
   --name_of_objects_vocabs vietnamese_entities \
   --path_of_objects_vocabs src/config/vietnamese_entities.json \
-  --use_amp\
+  --use_amp \
   |& tee -a ${LOG_FILE}
 
