@@ -26,6 +26,7 @@ git checkout main
 python dataset/flick2coco.py
 ```
 4. Tổ chức thư mục chứa dữ liệu:
+```text
 dataset/
 ├── Flick_sportball/
 │   ├── image/
@@ -37,6 +38,7 @@ dataset/
     ├── uitviic_captions_train2017.json
     ├── uitviic_captions_val2017.json
     └── uitviic_captions_test2017.json
+```
 
 Thống kê dữ liệu:
 <div align="center">
