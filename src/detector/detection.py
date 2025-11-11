@@ -15,12 +15,12 @@ class ObjectDetector:
         self.model.to(self.device)
 
     def detect(self, image_path):
-        results = self.model(image_path, conf=self.conf)
+        results = self.model(image_path, conf=self.conf, verbose=False)
         outputs = []
         for box in results[0].boxes:
             cls = int(box.cls[0])
             label_en = self.model.names[cls]
             label_vi = self.labels_vi.get(label_en, label_en)
             conf = float(box.conf[0])
-            outputs.append({"label": label_vi, "confidence": conf})
-        return outputs
+            outputs.append(label_vi)
+        return set(outputs)
