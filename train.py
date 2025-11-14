@@ -112,7 +112,7 @@ def train(
             torch.save(model.state_dict(), ckpt_path)
             print(f'saving checkpoint to {ckpt_path}')
 
-def main():
+if __name__ == '__main__':
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
     
     parser = argparse.ArgumentParser()
@@ -190,6 +190,3 @@ def main():
         model = ClipCaptionModel(args.continuous_prompt_length, args.clip_project_length, clip_hidden_size, args.num_layers, gpt_type = args.language_model, soft_prompt_first = args.soft_prompt_first, only_hard_prompt = args.only_hard_prompt)
     
     train(args, datasets, model, output_dir = args.out_dir, output_prefix = args.prefix)
-
-if __name__ == '__main__':
-    main()
