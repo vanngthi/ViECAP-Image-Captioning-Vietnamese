@@ -1,0 +1,3465 @@
+Caption: Một cậu bé đang chống đẩy trên quả banh.
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang chống đầu lên quả bóng đá hít đất.
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang hít đất đầu trên quả banh trên cỏ.
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang hít đất cùng quả bóng và một cậu bé đang quan sát.
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang chống đẩy trên một quả bóng đá.
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một vận động viên bóng chày nữ đang ném quả bóng chày.
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ vừa ném quả bóng chày về phía trước.
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày nữ đang vừa chạy vừa ném quả bóng
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang chạy trên sân tay ném bóng.
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang ném quả bóng về phía trước.
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một poster có nhiều hình ảnh của nhiều lĩnh vực
+Entities: gấu bông, quả bóng, tivi
+--------------------------------------------------
+Caption: Một bức poster quảng cáo về nhiều thể loại
+Entities: gấu bông, quả bóng, tivi
+--------------------------------------------------
+Caption: Một trang bìa có nhiều ô vuông chứa nhiều hình ảnh khác nhau.
+Entities: gấu bông, quả bóng, tivi
+--------------------------------------------------
+Caption: Nhiều bức tranh với nhiều lĩnh vực được ghép lại.
+Entities: gấu bông, quả bóng, tivi
+--------------------------------------------------
+Caption: Một hình ảnh có nhiều thể loại như thể thao, xe cộ, văn học.
+Entities: gấu bông, quả bóng, tivi
+--------------------------------------------------
+Caption: Hai hình ảnh người phụ nữ đang chơi tennis
+Entities: người, vợt tennis, quả bóng, ghế dài
+--------------------------------------------------
+Caption: Hình ảnh kép của một vận động viên tennis nữ đang thi đấu.
+Entities: người, vợt tennis, quả bóng, ghế dài
+--------------------------------------------------
+Caption: Vận động viên tennis nữ đang bước tới vung vợt đỡ bóng
+Entities: người, vợt tennis, quả bóng, ghế dài
+--------------------------------------------------
+Caption: Vận động viên tennis nữ đang cầm vợt thi đấu trên sân.
+Entities: người, vợt tennis, quả bóng, ghế dài
+--------------------------------------------------
+Caption: Vận động viên tennis nữ đang vung vợt đỡ bóng
+Entities: người, vợt tennis, quả bóng, ghế dài
+--------------------------------------------------
+Caption: Một số người đàn ông đang chơi bóng chày trên sân.
+Entities: găng bóng chày, người, xe hơi
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang trườn trên sân tranh bóng.
+Entities: găng bóng chày, người, xe hơi
+--------------------------------------------------
+Caption: Một số cầu thủ bóng chày đang thi đấu trên sâu.
+Entities: găng bóng chày, người, xe hơi
+--------------------------------------------------
+Caption: Hai cầu thủ bóng chày đang tranh bóng trên sân.
+Entities: găng bóng chày, người, xe hơi
+--------------------------------------------------
+Caption: Một trận bóng chày đang diễn ra với nhiều người quan sát.
+Entities: găng bóng chày, người, xe hơi
+--------------------------------------------------
+Caption: Những đứa trẻ đang chơi với mô hình bóng chày.
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Một đứa trẻ đang ném bóng vào cầu thủ bóng chày giả.
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Những đứa trẻ đang xếp hàng ném bóng vào tấm bảng.
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Những đứa trẻ đang xếp hàng chơi một trò bóng chày.
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Một đứa trẻ đang ném quả bóng về phía hình ảnh hai cầu thủ bóng chày.
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Một người đàn ông cởi trần tay cầm bóng bầu dục.
+Entities: người, chậu cây
+--------------------------------------------------
+Caption: Một người đàn ông chuẩn bị ném quả bóng bầu dục.
+Entities: người, chậu cây
+--------------------------------------------------
+Caption: Một người đàn ông không mặc áo cầm quả bóng bầu dục đứng ngoài sân.
+Entities: người, chậu cây
+--------------------------------------------------
+Caption: Một thanh niên trong tư thế chuẩn bị ném bóng.
+Entities: người, chậu cây
+--------------------------------------------------
+Caption: Một thanh niên cởi trần chơi bóng bầu dục ngoài sân.
+Entities: người, chậu cây
+--------------------------------------------------
+Caption: Người phụ nữ áo đỏ đang nhảy lên đánh trả bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của người phụ nữ đang cầm vợt tennis đứng khuỵu chân trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một cầu thủ bóng chày đang nhìn quả bóng chày .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang vung gậy để đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ áo tím đang đứng ở trước người phụ nữ áo xám ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông đang giơ gậy lên cao để chuẩn bị đánh bóng .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang thi đấu ở ngoài trời .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang đứng ở trên sân trước trận đấu .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Ở trên sân , một người phụ nữ đang cầm vợt tennis và ngửa mặt lên trời .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang nhảy lên để đánh quả bóng tennis .
+Entities: người
+--------------------------------------------------
+Caption: Cầu thủ ném bóng đang giơ quả bóng lên cao để chuẩn bị ném bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Bên trong cái thùng gỗ có các dụng cụ thể thao .
+Entities: gậy bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh của cùng một người đang chơi tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một ngời đàn ông đang chuẩn bị phát bóng ở trên sân tennis .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Hai người đang chơi tennis ở trên sân vào ban đêm .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt và bóng đứng trên sân trong trận .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của người phụ nữ đang thi đấu tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những cầu thủ bóng đá đang tập luyện trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những đứa trẻ đang dẫn bóng trên sân cỏ .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang vung vợt tennis về phía bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những đứa trẻ đang luyện tập đá bóng trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông mặc áo trắng đang chơi bóng chày trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Vận động viên tennis nữ đang câm vợt khum người đỡ bóng thấp .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Các cầu thủ khác đang theo dõi cú ném bóng của cầu thủ ném bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Đứa trẻ đang cầm vợt đánh tennis trên sân .
+Entities: đĩa bay, vợt tennis, quả bóng, người, xe hơi
+--------------------------------------------------
+Caption: Người đàn ông đang chơi bóng đá ngoài sân .
+Entities: người, xe đạp, quả bóng, ghế dài
+--------------------------------------------------
+Caption: Quả bóng chày đang nàm kế bên gậy bóng chày trên bàn .
+Entities: gậy bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh hai cậu bé đang chơi trong khu dân cư .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang cầm gậy thi đấu trên sân .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ áo đỏ cầm vợt tennis đang đỡ bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một con chó đang chạm chân vào quả bóng ở trên sân cỏ .
+Entities: chó, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh của đứa trẻ và người đàn ông đang chơi bóng chày trên sân .
+Entities: găng bóng chày, người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bắt bóng đang đưa tay ra phía trước đón bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Những người bạn đang chơi bóng đá ở trong công viên .
+Entities: người, quả bóng, xe đạp
+--------------------------------------------------
+Caption: Các cầu thủ đang đứng cùng những quả bóng ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang chơi tennis trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Người phụ nữ đang cầm vợt tennis thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của hai vận động viên đang thi đấu .
+Entities: người, vợt tennis, chai
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang nói chuyện với trọng tài rải rác ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nữ đang vung vợt đỡ bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một trận thi đấu tennis đôi nam đang diễn ra ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai người phụ nữ đang chơi tennis ở trong nhà .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Người phụ nữ đang vung vợt tennis về phía bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Ngươi phụ nữ áo vàng đang đứng nhìn động tác đánh quả bóng tennis của đối thủ .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang chơi bóng chày trên sân .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang mặc áo khoác luyện tập trên sân .
+Entities: người, ghế, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của người phụ nữ đang đánh tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang chơi bóng chày trên sân .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Các cầu thủ đang bước đi ở trên sân bóng đá .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang đứng ngoài biên ném bóng lên phát bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hai người đàn ông đang chơi bóng đá ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông cầm vợt đang hạ thấp người để đón bóng thấp .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đội tennis áo cam đang đỡ bóng qua phần sân bên kia .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một trận thi đấu bóng đá nam đang diễn ra ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông trẻ đang giữ bóng dưới chân .
+Entities: quả bóng, người, sách, ghế dài
+--------------------------------------------------
+Caption: Hình ảnh kép của người phụ nữ đang cầm vợt chơi tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Ba người đang đứng ở trên sân bóng chày với găng tay và nón bảo hiểm .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một người đànông đang nghiêng người để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai bức ảnh của một trận thi đấu bóng đá nữ ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cô bé đang cầm vợt và quả bóng tennis ở cạnh bức tường .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá của hai đội đang thi đấu trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang nhảy lên vung vợt tennis đánh trả bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ áo cam đang theo dõi động tác hãm bóng của cầu thủ áo đen .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hai nam vận động viên tennis đang cầm vợt và đứng ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bắt bóng đang giữ quả bóng ở trong găng tay .
+Entities: găng bóng chày, người, xe hơi
+--------------------------------------------------
+Caption: Vận động viên tennis đang bước dài để đón banh tennis .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang nghiêng người để đánh quả bóng chày .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang đứng cầm vợt tennis bằng tay trái ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh cầu thủ bóng chày đang thi đấu và số 746
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Những người đàn ông đang thi đấu bóng đá trên sân trước đông đảo khán giả .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang luyện tập tennis trên sân cùng nhiều bóng tennis xung quanh .
+Entities: đĩa bay, vợt tennis, quả bóng, người, xe hơi
+--------------------------------------------------
+Caption: Vận động viên tennis đang thi đấu trên sân với đám đông đang quan sát .
+Entities: người, vợt tennis, quả bóng, ghế
+--------------------------------------------------
+Caption: Một người đàn ông đang tâng bóng ở trong công viên .
+Entities: người, quả bóng, xe đạp
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang nghiêng người để đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang cầm vợt tennis nhảy lên đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai người phụ nữ đang luyện tập tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang đứng trên sân cầm vợt đỡ bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang ngửa người để phát bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông đang chuẩn bị phát quả bóng tennis .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Trọng tài đang đứng cạnh các cầu thủ bóng đá ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng chày đang luyện tập ở trên sân .
+Entities: ba lô, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang luyện tập bóng chày ở trong công viên .
+Entities: găng bóng chày, gậy bóng chày, người, xe hơi
+--------------------------------------------------
+Caption: Một người đàn ông đang dùng vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang cầm vợt đứng ngoài biên đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang vung vợt tennis về phía bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Hình ảnh kép của người đàn ông đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng, ghế
+--------------------------------------------------
+Caption: Một người đang dẫn bóng trên sân cỏ .
+Entities: người, xe đạp, quả bóng, ghế dài
+--------------------------------------------------
+Caption: Vận động viên tennis nữ đang cầm vợt đứng thấp người chuẩn bị đỡ bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Người phụ nữ đang cầm vợt đánh tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang thi đấu trên sân trước đông đảo khán giả .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang cầm vợt thi đấu trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông đang cầm găng tay và nhảy lên ở trên sân bóng chày .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Các bác sĩ đang chăm sóc cho cầu thủ ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của một người đàn ông đang chơi tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang cầm vợt tennis và đứng ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bóng chày đang trong tư thế ném bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một trận thi đấu tennis đôi nữ đang diễn ra ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bắt bóng dang nhảy lên ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang vung gậy đánh trả bóng trong trận .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Những người khác đang theo dõi cú đánh bóng của cậu bé áo xanh .
+Entities: người, găng bóng chày, xe hơi
+--------------------------------------------------
+Caption: Khán giả đang theo dõi một trận thi đấu tennis nam ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang dùng vợt để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai người phụ nữ đang đứng ở cạnh gôn ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một cầu thủ bóng đá đang đứng ở trước khung thành với quả bóng trên tay .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng đang xoay người để đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Hai nam vận động viên tennis đang thi đấu ở trên sân .
+Entities: người, vợt tennis, quả bóng, chai
+--------------------------------------------------
+Caption: Một người phụ nữ đang quan sát đường bay của quả bóng tennis .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Hai bức ảnh của một người phụ nữ đang chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang cầm gậy bóng chày và đứng nghiêng người qua trái .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang luyện tập đá bóng trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang chơi đá banh trên sân cỏ .
+Entities: quả bóng, người, sách, ghế dài
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang vươn người để đánh bóng .
+Entities: người
+--------------------------------------------------
+Caption: Cầu thủ áo xanh đang ngã vào chân của cầu thủ áo trắng .
+Entities: người, đĩa bay, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang vung gậy để đánh quả bóng chày .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang cầm gậy đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau người phụ nữ đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đàng cầm gậy đỡ bóng trên sân .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Hai người phụ nữ áo trắng đang cầm vợt tennis đứng quan sát bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng đang giơ gậy lên cao để chuẩn bị đánh bóng .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng đá ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang chuẩn bị đánh bóng .
+Entities: người
+--------------------------------------------------
+Caption: Hai người đang luyện tập tennis ở trên sân vào ban đêm .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Hai đứa trẻ đang thi đấu bóng chày ngoài sân .
+Entities: gậy bóng chày, người, găng bóng chày, xe hơi
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang vung vợt để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai người bạn đang chụp ảnh sau khi chơi tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang vung vợt để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang đứng cùng những quả bóng ở trên sân cỏ .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang cầm gậy đứng trên sân chuẩn bị đỡ bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Hai hình ảnh của những người phụ nữ đang chơi tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang chơi bóng chày ở trong vườn vào ban ngày .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh của một người phụ nữ đang chơi tennis .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng cầm gậy chuẩn bị đỡ bóng và cầu thủ bắt bóng đang ngồi sẵn sàng bắt bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang dùng vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai vận động viên tennis nữ đang cầm vợt thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Nữ vận động viên tennis áo tím đang nhảy lên để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị dùng vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bóng chày đang giơ gậy lên cao để đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang chơi tennis trên sân .
+Entities: người, vợt tennis, đồng hồ
+--------------------------------------------------
+Caption: Những cậu bé đang chơi bóng đá ở trên sân .
+Entities: người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang đứng rải rác ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang bước qua phải để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng đang chuẩn bị đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ áo vàng và cầu thủ áo đỏ đang chạy theo bóng trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đeo kính đen đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Nam vận động viên áo đỏ đang đứng khuỵu chân ở trên sân tennis .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Cầu thủ bắt bóng đang đứng cạnh cầu thủ chạy gôn ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Cầu thủ ném bóng vừa thực hiện cú phát bóng
+Entities: người
+--------------------------------------------------
+Caption: Một người phụ nữ đang dùng vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày trẻ đang ném vậy xuống đất .
+Entities: gậy bóng chày, người, găng bóng chày, xe hơi
+--------------------------------------------------
+Caption: Cậu bé áo trắng đang nghiêng người ở trên sân .
+Entities: người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang cầm vợt tennis và thả quả bóng xuống sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng đang vung gậy để đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Người đàn ông đang vung vợt tennis đánh trả bóng .
+Entities: người, vợt tennis, quả bóng, ghế
+--------------------------------------------------
+Caption: Hai vận động viên tennis nữ đang cầm vợt tennis đánh đôi trên sân .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang nhảy lên để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bắt bóng và trọng tài đang theo dõi động tác của cầu thủ đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Hai vận động viên tennis đang thi đấu cùng đội trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang vung vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cô bé đang luyên tập tennis ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang vung gậy đỡ bóng trong một trận đấu .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Một nam vận động viên đang khuỵu gối ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang vung vợt để đánh bóng .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang luyện tập trên sân cỏ .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ áo xám đang tung quả bóng lên cao để phát bóng ở trên sân tennis .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Các cầu thủ khác đang theo dõi cú bắt bóng của cầu thủ bắt bóng .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một nam cầu thủ đang bị chấn thương ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một số người đang chơi bóng rổ ngoài sân .
+Entities: người, xe tải, ghế, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ áo đỏ đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai vận động viên tennis nữ đang cầm vợt thi đấu trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người phụ nữ đang dùng vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh của hai đứa trẻ đang chơi bóng chày ngoài sân .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Ở trên sân , một cầu thủ đánh bóng đang chuẩn bị đánh bóng .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Một người đàn ông đang nhón chân để đỡ quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Trận đấu bóng chày đang diễn ra với cầu thủ đánh bóng sẵn sàng đỡ bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Người đàn oông đang cầm vợt tennis đứng ngoài biên giao bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Trọng tài đang theo dõi động tác của các cầu thủ bóng chày .
+Entities: người, găng bóng chày, ghế
+--------------------------------------------------
+Caption: Những người đàn ông đang đứng ở trên sân bóng đá .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ ném bóng đang xoay người để thực hiện động tác ném bóng .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang xoay người để chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang cầm gậy bước tới đánh trả bóng .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang thủ thế trong khi người còn lại đangvung vợt để đánh bóng .
+Entities: người, vợt tennis, quả bóng, chai
+--------------------------------------------------
+Caption: Một người đàn ông áo xanh đang nằm trên sân và giữ quả bóng chày bằng găng tay .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: người thủ môn nữ đang trong tư thế chuẩn bị chụp bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang giơ vợt lên cao để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Trận bóng chày đang diễn ra với một cầu thủ đang ném bóng .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang vung vợt tennis về phía bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang vung gậy để đánh quả bóng chày .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Cô gái áo tím đang nghiêng người để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bóng chày đang thi đấu trong hình ảnh quảng cáo kẹo cao su .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang xoay người để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai người đàn ồng đang tranh bóng trên sân cỏ .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của hai vận động viên tennis đang thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông mặc quần trắng đang chơi bóng chày trên sân /
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang luyện tập bóng chày ở trong khung lưới .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang vươn người để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ ném bóng đang chuẩn bị ném quả bóng chày ở trong tay .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá của hai đội đang thi đấu trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một bé gái đang cầm quả bóng đỏ quan sát hai đứa trẻ chơi điện tử .
+Entities: điều khiển, chai, người, ghế sofa, ghế
+--------------------------------------------------
+Caption: Một người đàn ông đang vung vợt đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh một trận thi đấu bóng đá đang diễn ra .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hai cầu thủ bóng đá đang tranh giành bóng trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng chày đang thi đấu trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một cậu bé đang giơ gậy bóng chày lên cao ở sau cái lưới .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh một đội bóng đang tập luyện trên sân trước nhiều người quan sát .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một con voi ném bóng rổ tại một buổi biểu diễn.
+Entities: voi, người, điện thoại
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của hai người phụ nữ đang thi đấu tennis cùng đội .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Cái thùng gỗ đang mở nắp với găng tay , cây gậy , dây và những quả bóng .
+Entities: gậy bóng chày, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang đeo găng tay bóng chày chôi ngoài sân cỏ .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang nhảy lên để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang cầm cây gậy ở trong căn phòng .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Bốn nam vận động viên tennis đang thi đấu ở trên sân .
+Entities: người
+--------------------------------------------------
+Caption: Hai cậu bé đang cầm vợt và đứng ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang cầm gậy bóng chày thi đấu trong trận .
+Entities: gậy bóng chày, người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Bé gái đứng cạnh ghế sofa tay đang cầm bóng .
+Entities: điều khiển, chai, người, ghế sofa, ghế
+--------------------------------------------------
+Caption: Cô bé tay cầm quả bóng đang đứng cạnh người đàn ông .
+Entities: điều khiển, chai, người, ghế sofa, ghế
+--------------------------------------------------
+Caption: Ba hình ảnh của ba người đàn ông đang chơi tennis .
+Entities: ba lô, người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bắt bóng đang nằm trên sân và giữ quả bóng ở trong găng tay .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một cậu bé đang vung gậy bóng chày để đánh bóng trong vườn .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang chơi bóng chày trên sân .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo đỏ đang cầm vợt đánh tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang chuẩn bị thả quả bóng xuống đất .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Ba hình ảnh khác nhau của người đàn ông đang giao bóng .
+Entities: ba lô, người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang cưỡi voi choi bóng đá .
+Entities: voi, người, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang nhảy lên để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một số người đang chơi điện tử trong phòng khách .
+Entities: điều khiển, chai, người, ghế sofa, ghế
+--------------------------------------------------
+Caption: Cầu thủ áo trắng đang nằm trên sân trong khi cầu thủ áo đỏ đang đứng cạnh gôn .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Người đàn ông đang ngồi trên cỏ kế bên quả bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang xoay người để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang chuẩn bị ném quả bóng chày ở trong tay .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một cậu bé đang luyện tập bóng chày ở trên sân .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hai người đàn ông đang cầm vợt tennis và bước đi ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Hai người đàn ông đang chơi bóng chày ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Hai vận động viên tennis đang cầm vợt thi đấu đôi .
+Entities: người, vợt tennis, chai
+--------------------------------------------------
+Caption: Một người đàn ông đang cầm vợt tennis và đứng xoay người ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông đang vươn người để đánh quả bóng tennis .
+Entities: người, ghế, quả bóng, chai
+--------------------------------------------------
+Caption: Quang cảnh một khu vườn với khung thành và quả bóng đá .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở ngoài trời .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang vung gậy bóng chày đánh tả bóng .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang cầm vợt đứng trên sân
+Entities: người, vợt tennis, đồng hồ
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang cầm vợt chuẩn bị đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Thanh niên đeo kính đen đang đỡ bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai đứa trẻ đang cùng nhau chơi với quả bóng đá trên sân cỏ .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Ở trên sân , một cầu thủ đánh bóng đang luyện tập .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang vung gậy đỡ bóng trên sân nhà .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng , cầu thủ bắt bóng và trọng tài đang đứng ở gôn .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Đứa trẻ mặc đồ bóng chày đang cầm gậy thi đấu trên sân .
+Entities: ba lô, gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Những đứa trẻ đang cùng nhau đá bóng trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Các nữ cầu thủ còn lại đang theo dõi cú sút bóng của nữ cầu thủ số 9 .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh một trận thi đấu tennis đôi nam được chụp từ trên cao .
+Entities: người
+--------------------------------------------------
+Caption: Một cầu thủ bắt bóng đang ngồi ở trên sân bóng chày .
+Entities: găng bóng chày, người, xe hơi
+--------------------------------------------------
+Caption: Hai người phụ nữ đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang nghiêng người để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở trên sân .
+Entities: gậy bóng chày, người, găng bóng chày, ô
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang cầm gậy chuẩn bị đỡ bóng .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang vung vợt để đánh bóng .
+Entities: người, ghế, quả bóng, chai
+--------------------------------------------------
+Caption: Hai cầu thủ bóng chày đang va chạm với nhau khi chơi bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang thi đấu trước đông đảo khán giả .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Một người đàn ông đang nhảy lên để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông mặc áo trắng đang chuẩn bị ném bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Hai hình ảnh của một người phụ nữ đang chuẩn bị đánh qủa bóng tennis .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Trong phòng , có một con mèo , quả bóng màu vàng và cái vali .
+Entities: mèo
+--------------------------------------------------
+Caption: Hình ảnh kép của người đàn ông đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang cầm gậy bóng chày đánh trả bóng trên sân .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: cầu thủ bóng chày trẻ đứng trên san thả gậy xuống sân .
+Entities: gậy bóng chày, người, găng bóng chày, xe hơi
+--------------------------------------------------
+Caption: Hai nguời đàn ông đang cưỡi ngựa và cầm súng trên tay .
+Entities: ngựa, người
+--------------------------------------------------
+Caption: Một đội bóng đang tập luyện trên sân thi đấu .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: MỘt số người đang chơi tennis trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Cầu thủ ném bóng đang chuẩn bị ném quả bóng ở trong tay .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Gậy bóng chày và quả bóng chày được đặt trên bàn trưng bày .
+Entities: gậy bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một trận bóng chày đang diễn ra với sự vung gậy.
+Entities: người
+--------------------------------------------------
+Caption: Khán giả đang theo dõi một trận thi đấu bóng chày nam .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Trọng tài đang nói chuyện với các cầu thủ bóng đá ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang ngồi cạnh quả bóng nhìn xuống dưới .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang đứng trên sân đỡ bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một số người đàn ông đang chơi bóng chày trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Khán giả đang theo dõi buổi biểu diễn xiếc voi .
+Entities: voi, người, điện thoại
+--------------------------------------------------
+Caption: Một người đàn ông với cái găng tay đang nhảy lên để bắt quả bóng chày .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang ngửa người để đánh bóng .
+Entities: người
+--------------------------------------------------
+Caption: Hình ảnh kép của hai người đàn ông đang chơi tennis trên sân
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Khán giả đang theo dõi một trận thi đấu tennis đôi nam ở trên sân .
+Entities: người
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của một nhóm người đan đá bóng trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Bên trái con gấu , một quả bóng đang nổi trên mặt hồ .
+Entities: gấu
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang luyện tập trên sân dưới trời nắng .
+Entities: người, ghế, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt đứng ngoài biên giao bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Cầu thủ bát bóng đang ngồi thấp người đón bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Người mẹ đang theo dõi động tác đánh bóng của con gái mình .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của người phụ nữ đang chơi tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nhóm trẻ em chơi với một quả bóng đá khổng lồ trong bãi đậu xe.
+Entities: người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang nhảy tới đỡ bóng .
+Entities: vợt tennis, ba lô, quả bóng, người, ghế dài
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang cầm vợt thi đấu trên sân .
+Entities: vợt tennis, ba lô, quả bóng, người, ghế dài
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang vung gậy đỡ bóng trong trận .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Hai người đàn ông đang phi ngựa qua chướng ngại vật .
+Entities: ngựa, người
+--------------------------------------------------
+Caption: Cầu thủ ném bóng đang luyện tập ném bóng dưới sự theo dõi của đồng đội .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một cô bé đang cầm quả bóng chày bằng cái găng tay .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Cậu bé đang vung gậy để đánh quả bóng chày ở trước tấm lưới .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Ở trên sân cỏ , một quả bóng đang nằm ở dưới cái lưới .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Vận động viên bóng chày áo số 14 đang cầm gậy chuẩn bị đánh bóng .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở trên sân .
+Entities: người, găng bóng chày, ghế
+--------------------------------------------------
+Caption: Một trận thi đấu tennis đôi nam đang diễn ra ở trên sân .
+Entities: người, vợt tennis, quả bóng, chai
+--------------------------------------------------
+Caption: Một cầu thủ đang ôm quả bóng trên tay .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cậu bé đang vung gậy để đánh quả bóng chày ở trên sân .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của người đàn ông áo xanh dương đang cầm vợt đánh tennis .
+Entities: người, vợt tennis, quả bóng, ghế
+--------------------------------------------------
+Caption: Ở trên sân , một người phụ nữ đang đưa vợt tennis ra sau và quan sát quả bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Người đàn ông đang cầm vợt và bóng tennis chuẩn bị giao bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông với cái găng tay đang nhìn quả bóng chày .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hai người đàn ông cưỡi ngựa đang nhảy qua chướng ngại vật
+Entities: ngựa, người
+--------------------------------------------------
+Caption: Ở trên sân tennis , một người phụ nữ đang đưa vợt lên cao và nhìn lên quả bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang chơi tennis trên sân dưới trời nắng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng đá ở trên sân .
+Entities: người, quả bóng, xe đạp
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang đứng trên sân nhà cầm gậy đỡ bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bóng chày vừa thực hiện cú ném bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang giơ vợt lên cao ở trên sân tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang cầm gậy bóng chày sẵn sàng đỡ bóng .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nữ đang cầm vợt đỡ bóng thấp .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang cầm vợt tennis đỡ bóng thấp .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang cầm vợt đánh tennis trên sân .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Bộ dụng cụ chơi bóng chày và bóng bầu dục ở trong cái thùng gỗ .
+Entities: gậy bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang nhảy lên ở trên sân .
+Entities: người
+--------------------------------------------------
+Caption: Những người phụ nữ đang luyện tập tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang cầm vợt tennis và đứng ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng đá ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang cầm vợt tennis và đứng ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang xoay người để ném quả bóng chày .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một vận động viên tennis đang luyện tập ở ngoài trời .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Người đàn ông mặc áo trắng đang chuẩn bị đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: người phụ nữ đang chơi bóng đá ở vị trí thủ môn .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hai nam vận động viên tennis đang thi đấu ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai ảnh kép của hai người phụ nữ đang thi đấu trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Người phụ nữ mặc áo đen đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bắt bóng đang nhảy lên ở trên gôn để bắt bóng .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang đứng ngoài biên nhồi bóng .
+Entities: người, vợt tennis, đồng hồ
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang cầm vợt và thả quả bóng xuống sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bóng chày đang thực hiện cú ném bóng trong trận .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Hai bức ảnh giống nhau của một vận động viên tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng đang dùng gậy của mình để đánh quả bóng .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Những con vui đang được điều khiển chơi đá bóng .
+Entities: voi, người, quả bóng
+--------------------------------------------------
+Caption: Những đứa trẻ đang ở ngoài sân tập đá bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hai cầu thủ đang thi đấu bóng đá ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang đeo găng tay bóng chày chụp bóng từ đứa trẻ .
+Entities: găng bóng chày, người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang vung vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang cầm vợt và di chuyển ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Thanh niên áo trắng đang cầm vợt tennis đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang cầm gậy bóng chày thi đấu ngoài sân .
+Entities: gậy bóng chày, người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Hai nam vận động viên tennis đang đứng nhìn quả bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang dùng vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Voi nhúng bóng rổ qua một cái vòng trong sân vận động trong nhà
+Entities: voi, người, điện thoại
+--------------------------------------------------
+Caption: Một người đàn ông đang giơ vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang đứng trên sân cùng bóng .
+Entities: người, ghế, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang nhón chân để đánh bóng .
+Entities: người, vợt tennis, quả bóng, xe đạp
+--------------------------------------------------
+Caption: Một cậu bé chơi tennis, với cây vợt của mình cào xuống đất.
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang đứng gần nhau ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang cầm gậy đỡ bóng trên sân trong trận bóng chày .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang vươn người lên để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang cầm vợt và đứng ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh kép của người phụ nữ đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang vung vợt tennis đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang đứng trước cầu thủ bắt bóng cố gắng đỡ bóng bằng gậy .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Một cái thùng gỗ cũ đựng các dụng cụ thể thao ở bên trong .
+Entities: gậy bóng chày, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang vung vợt đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nữ đang vung vợt về phía bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một trận thi đấu tennis đôi nam đang diễn ra ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người phụ nữ đang xoay người lên để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang vung vợt tennis đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cô bé đang theo dõi diễn biến của đối thủ ở trên sân tennis .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Người phụ nữ áo đen đang đánh quả bóng tennis về phía đối thủ .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một cậu bé đang luyện tập bóng chày ở sau cái lưới .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Những cầu thủ bóng chày đang thi đấu trên sân .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang xoay người để đánh quả bóng chày .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ áo trắng đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở trên sân .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ áo xanh lá đang chơi tennis trên sân .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người phụ nữ đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ cầm vợt tennis chuẩn bị giao bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang vung vợt đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Phụ huynh đang theo dõi buổi tập luyện bóng đá của con mình .
+Entities: người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ ném bóng đang bước tới trước để ném quả bóng chày .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt đứng ngoài biên đỡ bóng .
+Entities: người, ghế
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang giơ vợt lên để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh của hai đứa trẻ đang chơi bóng đá trên sân cỏ .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cô bé và mẹ của mình đang luyện tập chơi tennis ở gần nhà .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh của một nữ vận động viên tennis đang vung vợt để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Khán giả đang theo dõi một trận thi đấu tennis nam ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Các cầu thủ bóng chày đang thi đấu ở trên sân .
+Entities: gậy bóng chày, người, găng bóng chày, ô
+--------------------------------------------------
+Caption: Một người phụ nữ đang vung vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng sẵn sàng vung vợt đánh trả bóng trong trận đấu .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang đưa gậy về phía sau quan sát bóng .
+Entities: người
+--------------------------------------------------
+Caption: Trận bóng chày đang diễn ra với cầu thủ đánh bóng sẵn sàng đỡ bóng trên sân nhà .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang chuẩn bị đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông cầm vợt tennis đang đuổi theo bóng .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng chày đang thi đấu ở trên sân .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang cầm gậy thi đấu trên sân .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Hai người đàn ông đang cầm vợt tennis và đứng ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông đang xoay người để đánh quả bóng chày .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Một người đang đá bóng trên sân cỏ .
+Entities: người, xe đạp, quả bóng, ghế dài
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang cầm gậy và đứng cạnh trọng tài và cầu thủ bắt bóng .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Ở trên sân , một cầu thủ đánh bóng đang vung gậy để đánh bóng .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang cầm gậy đỡ bóng trong trận đấu .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Ở trên sân , một người đàn ông đang nghiêng người để chuẩn bị đánh quả bóng chày .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Một người phụ nữ đang đứng ở trên sân tennis với cái vợt ở trong tay .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông đang vươn người để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở trong công viên .
+Entities: người, găng bóng chày, ghế
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của thủ môn đang bảo về cầu môn .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang đứng quay lưng với hai người phụ nữ ở cạnh gôn .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Hai bức ảnh của một người phụ nữ đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang cầm gậy bóng chày vung gậy đánh trả bóng .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Những người cưỡi voi đang thi đấu bóng đá trong sở thú .
+Entities: voi, người, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bóng chày đang nhảy lên ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang vung vợt tennis đánh trả bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai vận động viên tennis nữ đang cầm vợt thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang đứng vung vợt ở trên sân tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang đeo găng tay bóng chày bắt bóng thấp trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Đứa trẻ đội mũ bóng chày đang chơi bóng chày ngoài sân .
+Entities: gậy bóng chày, người, chai
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt chạy theo bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một cầu thủ đang ôm quả bóng để chuẩn bị phạt góc .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cô bé đang bước tới trước để thực hiện động tác đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày trẻ đang cầm gậy thi đấu trên sân .
+Entities: gậy bóng chày, người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh kép của một số người đang chơi bóng đá trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của hai người phụ nữ đang đánh tennis trên sân .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang nhảy lên để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang chơi bóng trên san cỏ dưới trời nắng .
+Entities: người, xe đạp, quả bóng, ghế dài
+--------------------------------------------------
+Caption: Cầu thủ tennis của đội áo cao đang cố gắng đỡ bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Bên cạnh cái vali và con mèo , quả bóng màu vàng đang nằm ở trên sàn .
+Entities: mèo
+--------------------------------------------------
+Caption: Đứa trẻ đang chơi bóng chày ngoài sân .
+Entities: gậy bóng chày, người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Hai người đàn ông đang luyện tập tennis ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một cậu bé đang nghiêng người để ném quả bóng chày ở trong tay .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở trong khung lưới .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một con gấu đang đứng trên tảng đá ở cạnh hồ nước .
+Entities: gấu
+--------------------------------------------------
+Caption: Con voi đang dùng vòi để đưa bóng vào rổ ở trên sân khấu .
+Entities: voi, người, điện thoại
+--------------------------------------------------
+Caption: Người đàn ông đang xoay đầu về phía hai người phụ nữ ở cạnh gôn .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt thi đấu trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang đưa vợt ra sau để chuẩn bị đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang vung gậy đánh bóng và một cậu bé ngồi trên xe đạp .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang nhảy lên để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang cúi người để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Nữ vận động viên tennis áo trắng đang quan sát cú đánh bóng của nữ vận động viên áo tím .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang đỡ bóng bằng gậy bóng chày .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang chơi bóng chày trên sân .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang dùng vợt để đỡ quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bắt bóng đang đứng cạnh trọng tài và cầu thủ đánh bóng .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Những người đàn ông đang đứng ở trên sân bóng chày .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Đứa trẻ đang cầm vợt tennis nhảy lên đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nữ đang cầm vợt thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bóng chày vừa tung cú ném bóng trong trận .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh kép của người đàn ông đang chơi tennis trên sân .
+Entities: vợt tennis, ba lô, quả bóng, người, ghế dài
+--------------------------------------------------
+Caption: Người phụ nữ áo trắng đang theo dõi chuyển động của người phụ nữ áo xanh .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Thanh niên trẻ đang đỡ bóng tennis bằng vợt .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang sải bước để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo xanh biển đang chơi tennis trên sân .
+Entities: người, ghế
+--------------------------------------------------
+Caption: Hai hình ảnh của một người phụ nữ đang nhảy lên để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Khán giả đang theo dõi một trận thi đấu tennis nam ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai cậu bé đang chơi đùa trên vỉa hè ở ngoài trời .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang cầm gậy bóng chày chuẩn bị vung gậy đánh bóng .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Một người phụ nữ đang theo dõi cú đánh bóng của người phụ nữ khác .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang vung gậy bóng chày đánh trả bóng .
+Entities: gậy bóng chày, người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Hai vận động viên tennis đang cầm vợt thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh hai đứa trẻ đang cùng nhau đá bóng trên sân cỏ dưới trời nắng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh của một vận động viên tennis đang thi đấu .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang nhảy lên vung vợt tennis bằng hai tay đỡ bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang vung gậy đánh bóng .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Hai bức ảnh của một người phụ nữ đang chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị khuỵu gối để đỡ quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang cầm vợt tennis đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang thi đấu ở trên sân .
+Entities: người
+--------------------------------------------------
+Caption: Một cầu thủ bóng đá đang chuẩn bị sút bóng trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh của một người phụ nữ đang vung vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một vận động viên tennis đang chuẩn bị phát bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông áo đỏ đang chạy ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một số trẻ em chơi với một quả bóng đá lớn.
+Entities: người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang cầm vợt tennis đứng trên sân đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh kép của người đàn ông áo đỏ đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ áo xanh đang ngồi tựa lưng vào chân của cầu thủ áo trắng .
+Entities: người, đĩa bay, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang vung vợt tennis đánh trả bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang luyện tập bóng chày ở trên sân .
+Entities: gậy bóng chày, quả bóng, chai, người, găng bóng chày
+--------------------------------------------------
+Caption: Hai đứa trẻ đang chơi với quả bóng đá dưới trời nắng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang cầm vợt tennis chuẩn bị đỡ bóng thấp .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai nam vận động viên tennis đang di chuyển ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang vung gậy đánh trả bóng .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt nhảy lên đỡ bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang cầm gậy bóng chày thi đấu trên sân .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở ngoài trời .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng nhí đang vung gậy để đánh bóng .
+Entities: người, găng bóng chày, xe hơi
+--------------------------------------------------
+Caption: Một đứa trẻ đang cầm vợt đánh tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nữ đang thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang nhảy lên để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang xếp hàng ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau người phụ nữ đang chơi tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ ném bóng đang ném bóng về phía cầu thủ bắt bóng .
+Entities: người
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của người đàn ông áo đỏ đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Khán giả đang theo dõi cú đánh bóng của cầu thủ đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh của hai đứa trẻ đang đá bóng trên sân cỏ .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Ba hình ảnh khác nhau của ba người đàn ông đang cầm vợt đánh tennis .
+Entities: ba lô, người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang chạy xe đạp quan sát cậu bé khác chơi bóng chày .
+Entities: người, quả bóng, xe đạp
+--------------------------------------------------
+Caption: Một người phụ nữ đang bước tới trước để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang chơi bóng chày trên sân .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang giao bóng trước đông đảo khán giả .
+Entities: người, vợt tennis, quả bóng, ghế
+--------------------------------------------------
+Caption: Cầu thủ áo vàng và cầu thủ áo trắng đang chạy cạnh nhau ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hai người đàn ông đang cầm vợt và di chuyển ở trên sân tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ áo trắng đang vung vợt tennis đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh kép của người phụ nữ đang thi đấu tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang luyện tập tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng nữ đang đứng trước cầu thủ bắt bóng nữ đỡ bóng .
+Entities: gậy bóng chày, xe tải, quả bóng, người, găng bóng chày
+--------------------------------------------------
+Caption: Một con voi đang chơi bóng rổ giữa đám đông .
+Entities: voi, người, điện thoại
+--------------------------------------------------
+Caption: Cầu thủ áo vàng đang tranh chấp bóng với cầu thủ áo trắng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cậu bé nghiêng người để đỡ quả bóng bằng vợt của mình .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ chạy gôn đang nằm ở cạnh gôn ở trên sân bóng chày .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang chuẩn bị đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một trận thi đấu bóng chày nam đang diễn ra ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một đứa trẻ đang cầm cái vợt tennis đồ chơi và quả bóng ở cạnh bức tường .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang cầm vợt thi đấu trước đông đảo khán giả .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một cậu bé đang chơi bóng chày ở sau cái lưới .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang chơi tennis trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Cầu thủ áo đỏ đang đứng cạnh gôn và nhìn cầu thủ áo trắng nằm trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Người phụ nữ đang cầm vợt chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang thi đấu trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở ngoài trời .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một người phụ nữ đang giơ vợt lên để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Các nữ cầu thủ bóng đá đang thi đấu ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cái thùng gỗ có găng tay , quả bóng chày , dây và quả bóng bầu dục .
+Entities: gậy bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một số người đàn ông đang đứng trên sân cỏ cạnh những quả bóng .
+Entities: người, ghế, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt nhồi bóng bằng tay .
+Entities: người, vợt tennis, đồng hồ
+--------------------------------------------------
+Caption: Một trận thi đấu tennis đôi nam đang diễn ra ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang cầm vợt đứng ngoài biên đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh kép của người đàn ông đang chơi tennis trên sân .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một con gấu đang đứng cạnh vũng nước ở trong sở thú .
+Entities: gấu
+--------------------------------------------------
+Caption: Một cậu bé đang cầm quả bóng chày bằng cái găng tay .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ ném bóng dang nhảy lên ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Người đàn ông đang chơi bóng chày trên sân cỏ .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang chơi bóng rổ trên sân .
+Entities: quả bóng, người, ghế dài
+--------------------------------------------------
+Caption: Một người đàn ông đang vung vợt để đánh quả bóng tennis .
+Entities: người, ghế, quả bóng, chai
+--------------------------------------------------
+Caption: Năm cô gái chơi với một quả bóng đá lớn.
+Entities: người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông giữ quả bóng ở trong cái găng tay .
+Entities: găng bóng chày, người, xe hơi
+--------------------------------------------------
+Caption: Cầu thủ số 10 đang va chạm với cầu thủ bắt bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang càm vợt đỡ bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt đứng ngoài sân đánh bóng .
+Entities: người, ghế
+--------------------------------------------------
+Caption: Một người đàn ông đang luyện tập tennis ở ngoài trời .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông đang quan sát để phát bóng ở trên sân tennis .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Quả bóng đang bay về phía cầu thủ bắt bóng .
+Entities: gậy bóng chày, người, găng bóng chày, ô
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang đứng trên sân nhà vung vợt đỡ bóng .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ áo đỏ đang chơi bóng chày trên sân .
+Entities: gậy bóng chày, xe tải, quả bóng, người, găng bóng chày
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt với đánh bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang bước tới trước để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người lớn dạy một đứa trẻ chơi tennis trên sân nhựa đường.
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang vung vợt tennis đánh bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang ném quả bóng chày cho người đàn ông .
+Entities: găng bóng chày, người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bóng chày vung gậy để đánh bóng.
+Entities: người
+--------------------------------------------------
+Caption: Một cầu thủ bắt bóng đang giữ quả bóng ở trong găng tay .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang đứng trên sân ném rổ .
+Entities: quả bóng, người, ghế dài
+--------------------------------------------------
+Caption: Người phụ nữ đang cố đánh bóng tennis qua lưới .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Hai hình ảnh của một người phụ nữ đang xoay người để đánh quả bóng tennis .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Nữ vận động viên áo xanh đang nghiêng người để đỡ quả bóng tennis trong khi nữ vận động viên áo trắng đang quan sát .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Môt người đàn ông đang giơ gậy bóng chày lên cao ở gôn .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một người đàn ông đang luyện tập tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bóng chày đang nằm trên sân trong khi một cầu thủ khác đang đứng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Hình ảnh quảng cáo kẹo cao su có hai người phụ nữ và một cầu thủ bóng chày . ,
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang vung vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở ngoài trời .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Cầu thủ bóng chày cầm gậy đứng trên sân chuẩn bị đỡ bóng .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bắt bóng và trọng tài đang theo dõi động tác của cầu thủ đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo đỏ đang chơi bóng đá trên sân .
+Entities: quả bóng, người, sách, ghế dài
+--------------------------------------------------
+Caption: Đứa trẻ đang ném quả bóng chày trong trận trước nhiều người quan sát .
+Entities: gậy bóng chày, người, chai
+--------------------------------------------------
+Caption: Người phụ nữ áo đỏ đang chơi tennis trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bóng chày đang theo dõi chuyển động của hai cầu thủ ở gôn .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Đứa trẻ cầm vợt tennis đánh trả bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai người đàn ông đang chơi tennis ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Các cầu thủ bóng chày đang thi đấu ở ngoài trời .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang đứng cúi người ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh của một đứa trẻ chạy xe đạp và một đứa trẻ chơi bóng chày ngoài sân .
+Entities: người, quả bóng, xe đạp
+--------------------------------------------------
+Caption: Hình ảnh của một trận đấu bóng chày đang diễn ra ngoài sân .
+Entities: ba lô, gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng đang vung gậy để đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Nam vận động viên áo trắng đang chạy ở trên sân tennis .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Hai người phụ nữ và một người đàn ông đang chơi bóng chày ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng đang vung gậy để đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Hai cầu thủ bóng chày và trọng tài đang đứng ở gôn .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Ở trên sân , một nữ vận động viên tennis đang chuẩn bị phát bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Cậu bé áo xám đang vung gậy bóng chày về phía bóng .
+Entities: người, quả bóng, xe đạp
+--------------------------------------------------
+Caption: Một cậu bé đang vung gậy để đánh quả bóng chày .
+Entities: người, găng bóng chày, xe hơi
+--------------------------------------------------
+Caption: Cô bé tay cầm quả bóng đang quan sát hai đứa trẻ chơi game .
+Entities: điều khiển, chai, người, ghế sofa, ghế
+--------------------------------------------------
+Caption: Vận động viên tennis nữ đang thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang cầm vợt tennis đỡ bóng cao .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của người đàn ông áo tím đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang đứng trên sân tay cầm vợt tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo vàng đang chơi tennis trên sân .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang cầm quả bóng rổ một tay đứng trên sân .
+Entities: quả bóng, người, ghế dài
+--------------------------------------------------
+Caption: Người phụ nữ đang vung tennis đánh trả bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: người phụ nữ đang cầm vợt tennis đỡ bóng cao .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai người đàn ông đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ áo trắng đang chơi tennis trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông đang dùng vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang chạy ở trên sân cỏ .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một con chó đang dùng chân để chạm vào quả bóng ở trên sân cỏ .
+Entities: chó, quả bóng
+--------------------------------------------------
+Caption: Hai người đàn ông đang bước qua phải để đỡ quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo đỏ đang cầm vợt tennis chuẩn bị giao bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở ngoài trời .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Hai bức ảnh của hai người phụ nữ đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ áo đỏ đang cầm vợt tennis thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh của một nữ vận động viên tennis đang chuẩn bị đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang khởi động trước trận đấu .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ vung vợt tennis đánh trả bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bóng chày đang dùng gậy để đánh bóng ở trước tâm lưới .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hai cầu thủ tennis cùng đội đang thi đấu trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Người phụ nữ áo đỏ đang cầm vợt tennis đứng trên sân đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng đá ở ngoài trời .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang đánh quả bóng tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng, xe đạp
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang giơ gậy lên cao để đánh bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Người đàn ông đang vung vợt tennis đánh trả bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai bức ảnh của một nam vận động viên tennis đang vung vợt để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của người đàn ông đang chơi tennis trên sân .
+Entities: vợt tennis, ba lô, quả bóng, người, ghế dài
+--------------------------------------------------
+Caption: Hình ảnh chụp từ trên của người đàn ông đang ngồi cạnh quả bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang luyện tập tennis ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang dùng vợt để đỡ bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang vung gậy bóng chày về phía bóng .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Thủ môn đang cầm quả bóng trên tay ở trước khung thành .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng đang cầm gậy và đứng cạnh số 754 .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Hình ảnh của trận đấu bóng chày đang diễn ra với đông đảo khán giả quan sát .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng đá ở trong công viên .
+Entities: người, quả bóng, xe đạp
+--------------------------------------------------
+Caption: Một cô bé đang cúi người và đứng ở trên sân tennis .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang cầm vợt đánh tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cậu bé đang chơi đùa ở trên sân tennis cùng với quả bóng và cái vợt .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đứa bé gái đang cầm vợt tennis đỡ bóng cao .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ áo đen đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang cùng nhau luyện tập bóng đá trên sân .
+Entities: người, ghế, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh của một nữ vận động viên tennis đang thi đấu ở trên sân .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Trên cái vali , một con mèo đang nằm .
+Entities: mèo
+--------------------------------------------------
+Caption: Vận động viên tennis đang đứng ngoài biên đánh bóng .
+Entities: người, ghế
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang chơi tennis trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Hình ảnh kép của hai người phụ nữ đang chơi tennis trên sân .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một trận thi đấu bóng đá đang diễn ra ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang cầm vợt tennis đứng ngoài biên đỡ bóng .
+Entities: người, vợt tennis, quả bóng, ghế
+--------------------------------------------------
+Caption: Một người đàn ông đang bay người để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ bóng chày đánh bóng chày trong một trận bóng chày.
+Entities: người
+--------------------------------------------------
+Caption: Hình ảnh kép của hai người đang chơi tennistrên sân .
+Entities: người, vợt tennis, chai
+--------------------------------------------------
+Caption: Một cầu thủ ném bóng đang theo dõi cú đánh bóng của cầu thủ đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông dạy một cậu bé chơi tennis
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Trọng tài áo tím đang quan sát trận bóng chày diễn ra .
+Entities: người
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang chơi bóng chày trên sân .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Trọng tài và cầu thủ đánh bóng đang theo dõi chuyển động của cầu thủ ném bóng .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Một vận động viên tennis đang thi đấu ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bắt bóng đang đưa tay về phía trước bắt bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang cầm vợt và bóng tennis đứng trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một sô người đang chơi bóng chày trên sân .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Bên cạnh quả bóng màu vàng , một con mèo đang nằm trên cái vali .
+Entities: mèo
+--------------------------------------------------
+Caption: Một nam vận động viên đang chuẩn bị đánh bóng ở gần lưới .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một chuỗi những hình ảnh của những nguwofi đang chơi tennis .
+Entities: ba lô, người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang cầm gậy bóng chày và xoay người ở gôn .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh của một trận thi đấu tennis đôi nam nữ .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang khởi động trước trận đấu .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Trận đấu bóng đá đang diễn ra vơi cầu thủ chuẩn bị đá phạt góc .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một con voi đang chơi bóng rổ ở trên sân khấu .
+Entities: voi, người, điện thoại
+--------------------------------------------------
+Caption: Một con chó đang dùng chân để chạm vào quả bóng ở trong vườn .
+Entities: chó, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang ném quả bóng chày về phía người đàn ông .
+Entities: găng bóng chày, người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang chươi bóng chày trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Người phụ nữ áo xám đang chuẩn bị phát bóng ở trên sân tennis .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Người phụ nữ đang đưa vợt tennis lên cao đánh bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông đang nhảy lên không ở trên sân tennis .
+Entities: người
+--------------------------------------------------
+Caption: Người phụ nữ mặc đồ tím đang chơi tennis trến sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của đội tennis nữ đang thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một đứa trẻ đang ném bóng về phía đứa trẻ đang cầm gậy bóng chày .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Quả bóng chày nằm trên trụ đặt trên bàn cùng gậy bóng chày .
+Entities: gậy bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh kép của người đàn ông áo đỏ đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang xoay người ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông đang giơ gậy lên để đánh quả bóng chày .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang đứng trên sân giao bóng .
+Entities: người, vợt tennis, quả bóng, ghế
+--------------------------------------------------
+Caption: Hai bức ảnh của hai người đàn ông đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ áo đỏ đang đứng cạnh gôn trong khi cầu thủ áo trắng đang nằm trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Trọng tài đang theo dõi động tác của cầu thủ bắt bóng và cầu thủ đánh bóng .
+Entities: ba lô, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hai người đàn ông đang luyện tập tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang vung vợt tennis đánh trả bóng .
+Entities: vợt tennis, ba lô, quả bóng, người, ghế dài
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang giơ gậy lên để chuẩn bị đánh bóng .
+Entities: ba lô, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Khán giả đang theo dõi diễn biến của trận thi đấu bóng đá nam .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang cầm gậy chơi bóng chày ngoài sân .
+Entities: gậy bóng chày, người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của người phụ nữ chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai vận động viên tennis đang nhảy lên ở trên sân .
+Entities: người
+--------------------------------------------------
+Caption: Cầu thủ áo trắng đang tranh chấp bóng với cầu thủ áo vàng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng đá ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bắt bóng , cầu thủ đánh bóng và trọng tài đang tập trung ở gôn .
+Entities: ba lô, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: một người đàn ông sắp đánh bóng trong một trận bóng chày
+Entities: người
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang cầm gậy thi đấu trên sân .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Gậy bóng chày đang nằm trên bàn cùng quả bóng chày .
+Entities: gậy bóng chày, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang đứng gần lưới cầm vợt tennis đỡ bóng .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông khác đang theo dõi cú ném bóng của người đàn ông áo đen .
+Entities: găng bóng chày, gậy bóng chày, người, xe hơi
+--------------------------------------------------
+Caption: Người phụ nữ mặc áo đen đang cầm vợt tennis thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang giơ gậy lên cao để đánh bóng .
+Entities: người, găng bóng chày, ghế
+--------------------------------------------------
+Caption: Đứa trẻ đang cúi người xuống bắt quả bóng chày .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một cầu thủ ném bóng đang ném quả bóng về phía cầu thủ đánh bóng và trọng tài .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang thực hiện động tác ném bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Vận động viên tennis nữ cầm vợt đỡ bóng thấp .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nhóm người đàn ông đang chơi bóng rổ ngoài sân dưới trời nắng .
+Entities: người, xe tải, ghế, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang vung vợt về phía quả bóng chày .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang vung vợt để đánh bóng trong khi người còn lại đang thủ thế .
+Entities: người, vợt tennis, quả bóng, chai
+--------------------------------------------------
+Caption: Một người phụ nữ đang nhảy lên ở trên sân tennis .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh kép của người phụ nữ đang chơi tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo đen đang chơi bóng chày trên sân .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh trận bóng đá đang diễn ra trước đông đảo khán giả .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bắt bóng cầm gậy sẵn sàng đón bóng từ cầu thủ ném bóng .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang cầm vợt tennis đứng trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Những người đàn ông đang đứng cạnh những quả bóng ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ áo đỏ đang cầm vợt đánh tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt đứng ngoài biên đánh bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cô bé đang thủ thế để chuẩn bị đỡ bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang khuỵu gối để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông mặc áo tím đang ngồi trên sân cỏ cạnh quả bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày nữ đang cầm gậy chơi bóng chày trên sân .
+Entities: gậy bóng chày, xe tải, quả bóng, người, găng bóng chày
+--------------------------------------------------
+Caption: Một người đàn ông đang vung vợt để chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một số người đang cùng nhau đá bóng trên sân trong sở thú .
+Entities: voi, người, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang vung vợt đỡ bóng thấp .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang cầm vợt tennis đỡ bóng cao .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Thủ môn đang nhảy sang phải cố gắng bảo về cầu môn .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một trận thi đấu bóng chày nữ đang diễn ra ở trên sân .
+Entities: người, găng bóng chày, ghế
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của người phụ nữ đang đánh tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang ngồi và giữ quả bóng ở trong găng tay .
+Entities: găng bóng chày, người, xe hơi
+--------------------------------------------------
+Caption: Cậu bé đang luyện tập chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bắt bóng đang chuẩn bị bắt quả bóng .
+Entities: gậy bóng chày, người, găng bóng chày, ô
+--------------------------------------------------
+Caption: Vận động viên tennis đang đứng ngoài biên phát bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người phụ nữ đang ngửa mặt lên để nhìn quả bóng tennis .
+Entities: người
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang cầm gậy đỡ bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một vận động viên tennis đang nhảy lên để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang bước tới trước để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Con mèo đang nằm trên cái vali ở cạnh quả bóng màu vàng .
+Entities: mèo
+--------------------------------------------------
+Caption: Người đàn ông đang cầm vợt tennis chuẩn bị giao bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông đang dùng vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng đang xoay người để đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hai vận động viên tennis áo tím đang đấu đôi trên sân .
+Entities: người, vợt tennis, chai
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị đánh quả bóng tennis .
+Entities: người
+--------------------------------------------------
+Caption: Một người đàn ông đang đánh quả bóng tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Thủ môn nam vừa thất bại bảo vệ cầu môn .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang luyện tập đá bóng ngoài sân cỏ .
+Entities: người, xe đạp, quả bóng, ghế dài
+--------------------------------------------------
+Caption: Những cậu bé đang luyện tập bóng đá ở trên sân .
+Entities: người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh trận bóng chày đang diễn ra .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Cầu thủ bóng chày trẻ đang vung gậy bóng chày đánh trả bóng .
+Entities: gậy bóng chày, người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang chơi bóng chày ngoài sân cỏ .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Quả bóng chày đang bay ở trước mặt một cầu thủ bóng chày .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đeo găng tay bóng chày đang chơi ngoài sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang vung gậy đánh trả bóng trong hình quảng cáo .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang xoay người để đánh quả bóng tennis .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày nữ đang cầm gậy đứng một chân trên sân đỡ bóng .
+Entities: gậy bóng chày, xe tải, quả bóng, người, găng bóng chày
+--------------------------------------------------
+Caption: Một đứa trẻ đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang cầm vợt và đứng ở trên sân tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai vận động viên tennis đang nhảy lên để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang cầm gậy bóng chày thi đấu trên sân .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang đứng trên sân nhà vung gậy đỡ bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một trận thi đấu tennis đôi nam đang diễn ra ở trên sân .
+Entities: người
+--------------------------------------------------
+Caption: Hai người phụ nữ đang chơi tennis ở trên sân vào ban đêm .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Ở trên sân tennis , một người phụ nữ đang quan sát quả bóng để phát bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang chuẩn bị đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ chạy gôn đang chạy ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Người phụ nữ đang đỡ bóng tennis bằng vợt .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Người đàn ông đang cầm quả bóng rổ trên tay chuẩn bị ném rổ .
+Entities: quả bóng, người, ghế dài
+--------------------------------------------------
+Caption: Hai nam vận động viên tennis đang bước qua phải để đỡ bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng đang vung gậy để đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đứng trên sân vung vợt đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của vận động viên tennis đang thi đấu .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang chuẩn bị ném quả bóng chày ở trong tay .
+Entities: găng bóng chày, gậy bóng chày, người, xe hơi
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Người đàn ông chuẩn bị thực hiện cú sút bóng .
+Entities: quả bóng, người, sách, ghế dài
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang cầm gậy thi đấu trên sân .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang xoay người để đánh quả bóng chày .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh của một người phụ nữ đang dùng vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang vung vợt tennis về phía bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh trắng đen của trận đấu bóng chày đang diễn ra .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Một con voi đang đặt một quả bóng rổ qua một cái vòng
+Entities: voi, người, điện thoại
+--------------------------------------------------
+Caption: Một trận thi đấu tennis nam đang diễn ra ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang đưa vợt qua phải ở trên sân .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: hình ảnh cận cảnh của một người ngồi trên sân cỏ cùng quả bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang đứng rải rác ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một con voi đặt một quả bóng rổ trong giỏ với thân cây của mình.
+Entities: voi, người, điện thoại
+--------------------------------------------------
+Caption: Đứa trẻ đang cầm gậy bóng chày đứng trên đồng cỏ chuẩn bị đánh bóng .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang cầm gậy đứng trên sân đánh bóng .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Một trận thi đấu bóng chày nam đang diễn ra ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Hình ảnh kép của những người phụ nữ đang thi đấu tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang chuẩn bị đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Quả bóng chày đang bay ở trước mặt một cầu thủ bắt bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang cầm vợt tennis và bóng trên hai tay .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai đứa trẻ đang cùng nhau chơi bóng chày ngoài đồng cỏ .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Hai người đàn ông đang thi đua ngựa trên sân .
+Entities: ngựa, người
+--------------------------------------------------
+Caption: Một người đàn ông đang vươn người để đánh quả bóng tennis .
+Entities: người
+--------------------------------------------------
+Caption: Một người đàn ông đang ngửa người để phát bóng ở trên sân tennis .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Vận động viên bóng chày đang cầm gậy thi đấu trên sân /
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh kép người phụ nữ đang vung vợt tennis đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang xoay người để ném quả bóng chày ở trong tay .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Hai vận động viên tennis đang thi đấu chung đội trên sân .
+Entities: người, vợt tennis, chai
+--------------------------------------------------
+Caption: Người phụ nữ áo xanh đang nghiêng người để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang đứng trên sân nhà đỡ bóng bằng gậy .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nhỏ tuổi đang luyện tập ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Quả bóng chày đang bay ở trước mặt một cầu thủ ném bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ áo đen đang dùng bụng để hãm bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Ba hình ảnh khác nhau của ba người đang đánh tennis .
+Entities: ba lô, người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ áo xanh lá đang chơi bóng chày trên sân .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang đứng trên sân vung gậy đánh bóng .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Vận động viên nam tennis đang thi đấu trên sân .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang nhón chân để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng, xe đạp
+--------------------------------------------------
+Caption: Một cậu bé đang ngửa người để ném quả bóng chày .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang luyện tập tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang cầm vợt tennis và bóng đứng trên sân
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông đang dùng vợt để đỡ quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang dùng bụng để hãm bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Trọng tài đang đứng sau cầu thủ ném bóng quan sát trận đấu .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang cầm vợt tennis đứng trên sân .
+Entities: đĩa bay, vợt tennis, quả bóng, người, xe hơi
+--------------------------------------------------
+Caption: Khán giả đang theo dõi trận thi đấu bóng chày nữ ở trên sân .
+Entities: người, găng bóng chày, ghế
+--------------------------------------------------
+Caption: Trọng tài đang bước về phía cầu thủ đánh bóng và cầu thủ bắt bóng .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Huấn luyện viên đang theo dõi buổi tập luyện bóng đá của học trò .
+Entities: người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang cầm vợt nhảy lên đánh trả bóng .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang nhảy lên để đánh bóng .
+Entities: người
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang vung gậy bóng chày đánh trả bóng .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang vung vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh của một cặp nam vận động viên tennis đang thi đấu ở trên sân .
+Entities: người, vợt tennis, quả bóng, chai
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng nhí đang xoay người để đánh bóng .
+Entities: người, găng bóng chày, xe hơi
+--------------------------------------------------
+Caption: Một nhóm người đàn ông đang chơi bóng rổ dưới trời nắng .
+Entities: người, xe tải, ghế, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang nghiêng người để đánh quả bóng tennis .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang vung vợt để đánh quả bóng tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng, xe đạp
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang chơi tennis trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hai bức ảnh của một nữ cầu thủ số 9 đang nhảy lên để đá bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang cầm quả bóng chày và cái găng tay ở trên sân .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang bước dài tới ném bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Đứa trẻ cầm vợt tennis giơ lên đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang cầm vợt đánh tennis .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Hai đứa trẻ đang chơi ngoài công viên . .
+Entities: người, quả bóng, xe đạp
+--------------------------------------------------
+Caption: Một người phụ nữ đang đưa vợt qua phải ở trên sân tennis .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Ở trong vườn , một quả bóng đang nằm ở dưới cái lưới .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ đang khởi động ở trên sân trước khi thi đấu .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang dùng vợt để đỡ bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nữ đang vung vợt đánh bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ và một nhóm những đứa trẻ đi qua một bãi đậu xe.
+Entities: người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang xoay người để đánh quả bóng chày .
+Entities: người, găng bóng chày, xe hơi
+--------------------------------------------------
+Caption: Một cầu thủ bắt bóng đang đưa tay ra để bắt bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một cầu thủ bóng chày đang ném bóng về phía trước .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cô bé đang chơi tennis ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Cầu thủ bóng chày áo số 24 đang cầm gậy thi đấu trên sân .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Cô bé đang luyện tập chơi tennis cùng với mẹ ở trên sân vào ban ngày .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một trận thi đấu bóng đá nam đnag diễn ra ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Môt cầu thủ đánh bóng đang giơ gậy lên cao ở gôn .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Hai hình ảnh của một người phụ nữ đang chuẩn bị đánh quả bóng tennis .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một trận thi đấu bóng chày đang diễn ra ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị dùng vợt để đỡ quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai bức ảnh của một người đàn ông đang vung vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Ở trong vườn , một quả bóng đang nằm trong khung thành .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang theo dõi động tác của cầu thủ ném bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang giơ gậy lên cao để chuẩn bị đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: HÌnh ảnh kép người phụ nữ đang đánh tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang cầm vợt tennis chuẩn bị nhặt bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cô bé đang luyện tập chơi tennis cùng với huấn luyện viên ở trên sân vào ban ngày .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang chuẩn bị đánh bóng .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh kép của người phụ nữ đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang cầm vợt tennis đứng ngoài biên giao bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang nhảy lên để đánh bóng .
+Entities: người, ghế, quả bóng, chai
+--------------------------------------------------
+Caption: Hình ảnh kép của thủ môn nữ đang bảo vệ cầu môn trong trận bóng đá .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang ngồi nhìn bạn của mình luyện tập bóng chày .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng đang cầm gậy và xoay người ở gôn .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một con gấu đang được đứng cạnh hồ nước ở trong sở thú .
+Entities: gấu
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang bước về sau ném bóng về phía trước .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Cầu thủ ném bóng đang xoay người để chuẩn bị ném bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một người đàn ông đang rướn người để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang cầm gậy bóng chày và một cậu bé ngồi trên xe đạp .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Một vận động viên tennis đang thi đấu ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang chuẩn bị đánh quả bóng chày .
+Entities: gậy bóng chày, quả bóng, chai, người, găng bóng chày
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang chuẩn bị đánh bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang cầm vợt sẵn sàng đánh trả bóng trên sân nhà .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Khán giả đang theo dõi một trận thi đấu bóng chày nam .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Người đàn ông chuẩn bị đá bóng .
+Entities: quả bóng, người, sách, ghế dài
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên nữ phía sau đang cầm vợt tennis đánh bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Người đàn ông đang đứng trên sân tennis chuẩn bị giao bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một cậu bé đang giơ gậy ra sau để đánh quả bóng chày .
+Entities: gậy bóng chày, quả bóng, chai, người, găng bóng chày
+--------------------------------------------------
+Caption: người phụ nữ đang cầm vợt tennis nhảy lên đỡ bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang xoay người để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh quảng cáo kẹo cao su có cầu thủ bóng chày đang thi đấu .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày áo số 36 đang chuẩn bị ném bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Cậu bé đang dùng vợt tennis để đỡ bóng ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang nhảy lên ở trên sân bóng chày .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Những người đàn ông đang thi đấu bóng rổ dưới trời nắng .
+Entities: người, xe tải, ghế, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ áo trắng đang cầm vợt đánh tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang cầm gậy thi đấu trên sân .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị khuỵu gối để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang vung vợt tennis đánh trả bóng .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Quang cảnh một trận thi đấu tennis nam được chụp từ trên cao .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Những người phụ nữ đang thi đấu tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở trên sân .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ cầm vợt tennis bước tới đỡ bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang vung gậy bóng chày đánh bóng trong trận bóng chày . ;
+Entities: ba lô, gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Hình ảnh đôi của người phụ nữ đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang cầm quả bóng trên tay và đứng ở trước khung thành .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh sân nhà của trận bóng chày đang diễn ra .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt thi đấu trên sân .
+Entities: người, ghế
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang chuẩn bị phát bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh của các cầu thủ bóng chày trên sân nhà trong trận đấu .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh của đứa trẻ đang chơi bóng chày cùng người đàn ông .
+Entities: găng bóng chày, người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: hai vận động viên tennis đang cầm vợt đánh tennis trong trận .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng chày đang thi đấu ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Hai đội bóng đang đứng trên sân bóng chờ đợi trong trận .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông mặc áo xanh dương đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng, ghế
+--------------------------------------------------
+Caption: Một cầu thủ áo xanh đang nhảy lên ở trước khung thành .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang nhón chân để đỡ bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang đứng ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Trận bóng chày đang diễn ra với một cầu thủ đang ném bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một cầu thủ bắt bóng đang ngồi và giữ quả bóng ở trong găng tay .
+Entities: găng bóng chày, người, xe hơi
+--------------------------------------------------
+Caption: Các cầu thủ bóng chày đang thi đấu ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang nhảy lên để đánh bóng .
+Entities: người
+--------------------------------------------------
+Caption: Một con chó đang chạm chân vào quả bóng ở trong vườn .
+Entities: chó, quả bóng
+--------------------------------------------------
+Caption: Hai người đàn ông đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ ném bóng đang xoay người để chuẩn bị ném bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang dùng vợt để đánh quả bóng tennis .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang cầm vợt tennis đứng gần lưới sẵn sàng đánh trả bóng .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang cưỡi voi đá bóng trong sở thú .
+Entities: voi, người, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang cầm vợt đỡ bóng thấp .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang đứng ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang cầm vợt tennis luyện tập trên sân .
+Entities: đĩa bay, vợt tennis, quả bóng, người, xe hơi
+--------------------------------------------------
+Caption: Đứa trẻ đang chơi bóng chày trên sân .
+Entities: gậy bóng chày, người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bắt bóng đang nhảy lên để bắt bóng trong khi cầu thủ số 10 đang chạy về gôn .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Các cầu thủ bóng chày đang thi đấu ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Hai người phụ nữ đang cầm vợt tennis đánh đôi trước đám đông quan sát .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Ở trên sân , một nữ vận động viên tennis đang ngửa mặt lên để quan sát quả bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người phụ nữ đang cầm vợt và đứng ở ngoài sân tennis .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Người phụ nữ đang vung vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông và một cậu bé đứng trên sân tennis cầm vợt tennis
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang cầm vợt và đứng ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang xếp hàng ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh kép của hai người phụ nữ đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một đứa trẻ đang cầm vợt bóng chày đứng trên cỏ .
+Entities: người, quả bóng, xe đạp
+--------------------------------------------------
+Caption: Hình ảnh trận bóng chày đang diễn ra .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Hai bức ảnh của một trận thi đấu tennis đôi nam đang diễn ra ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang vơi vợt tới đỡ bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Khán giả đang theo dõi cú đánh bóng của nam vận động viên tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang chuẩn bị đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang chuẩn bị đánh quả bóng chày .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang đánh bóng .
+Entities: người, vợt tennis, quả bóng, xe đạp
+--------------------------------------------------
+Caption: Một cậu bé đang giữ quả bóng chày ở trong cái găng tay .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Ba người đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang xoay người để đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng đang xoay người để đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang vươn người để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nữ đang cầm vợt thi đấu trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hai nam vận động viên tennis đang thi đấu ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai người bạn đang chụp ảnh cùng vợt của mình ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh đôi của nguwofi phụ nữ đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một đứa trẻ đang ném gậy bóng chày và một đứa trẻ đang ném bóng .
+Entities: gậy bóng chày, người, găng bóng chày, xe hơi
+--------------------------------------------------
+Caption: Khán giả đang theo dõi một trận thi đấu tennis nam ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Những người phụ nữ đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh của một người phụ nữ đang chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang vung vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh của những người đàn ông đang chơi bóng chày với số 749 trên hình .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang vung gậy để đánh quả bóng chày .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của người những người phụ nữ đang chơi bóng đá .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang vung vợt tennis đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang sải bước để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang cầm quả bóng rổ chuẩn bị ghi bàn .
+Entities: quả bóng, người, ghế dài
+--------------------------------------------------
+Caption: Cầu thủ ném bóng đang ném bóng về phía cầu thủ bắt bóng .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Người đàn ông đang vung vợt tennis đỡ bóng trong trận .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông mặc áo xanh dương đang vung vợt đánh trả bóng .
+Entities: người, vợt tennis, quả bóng, ghế
+--------------------------------------------------
+Caption: Vận động viên tennis nữ đang cầm vợt thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang đứng trước cầu thủ bắt bóng sẵn sàng đỡ bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Nhiều người đang tụ tập ở trong công viên .
+Entities: người, quả bóng, xe đạp
+--------------------------------------------------
+Caption: Một cầu thủ ném bóng đang xoay người để ném quả bóng chày ở trong tay .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang nhảy lên ở trên sân .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một buổi biểu diễn xiếc voi đang diễn ra .
+Entities: voi, người, điện thoại
+--------------------------------------------------
+Caption: Ở trên sân , một nữ vận động viên tennis đang quan sát quả bóng để phát bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một con chó đang đứng cạnh quả bóng ở trên sân cỏ .
+Entities: chó, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bắt bóng đang cố gắng tránh cầu thủ số 10 .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Hai cậu bé đang cầm vợt bằng tay trái và giơ tay phải lên cao .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang cầm vợt và bóng tennis chuẩn bị giao bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông đang vung gậy để đánh quả bóng chày .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang xoay người để đánh quả bóng chày .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang quan sát đường bay của quả bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang đứng trên sân nhà đánh trả bóng .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Người phụ nữ áo xám đang chuẩn bị phát bóng trong khi người phụ nữ áo tím đang đứng ở trên sân tennis .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Người đàn ông mặc áo xanh lá đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang bay người để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang nhảy lên để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang thực hiện động tác ném bóng ở trên sân bóng chày .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang cầm vợt và quả bóng tennis ở cạnh bức tường .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang giơ gậy lên cao để chuẩn bị đánh bóng .
+Entities: găng bóng chày, gậy bóng chày, người, xe hơi
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng đang giơ gậy ra sau để đánh bóng .
+Entities: gậy bóng chày, quả bóng, chai, người, găng bóng chày
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang vung gậy để đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Các cầu thủ bóng chày trẻ đang thi đấu ngoài sân .
+Entities: ba lô, gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Một cậu bé đang chuẩn bị để ném quả bóng chày ở trong tay .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Hai bức ảnh của một nữ vận động viên tennis đang thi đấu ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Bên trái con gấu , một quả bóng đang nổi ở trên mặt nước .
+Entities: gấu
+--------------------------------------------------
+Caption: Một con voi đặt một quả bóng rổ vào cái vòng.
+Entities: voi, người, điện thoại
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang vung vợt tennis đánh trả bóng .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai cầu thủ tennis áo cam đang càm vợt thi đấu trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người phụ nữ đang bước tới trước để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai người đàn ông đang cưỡi ngựa trên sân .
+Entities: ngựa, người
+--------------------------------------------------
+Caption: Một đứa trẻ đang cầm vợt và quả bóng tennis ở cạnh bức tường .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai vận động viên tennis nữ đang cùng nhau đánh tennis trên sân .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở trên sân .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Một người đàn ông và một đứa trẻ đang chơi trên sân tennis.
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày đang cầm gậy đứng trên sân đánh bóng .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng chày đang thi đấu ở trên sân .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Ở trên sân tennis , một người phụ nữ đang chuẩn bị phát bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang cùng nhau chơi bóng rổ ngoài sân .
+Entities: người, xe tải, ghế, quả bóng
+--------------------------------------------------
+Caption: Một đứa trẻ đang cầm quả bóng bằng tay phải và cái vợt bằng tay trái .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang vung vợt để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở trong công viên .
+Entities: găng bóng chày, gậy bóng chày, người, xe hơi
+--------------------------------------------------
+Caption: Thủ môn đang nhảy sang phải trước cầu môn cố gắng bắt bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang chạm cái vợt vào quả bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một nhóm người đang chơi bóng chày trên sân .
+Entities: người
+--------------------------------------------------
+Caption: Một vận động viên tennis đang nghiêng người để đánh bóng ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Trận đấu bóng chày đang diễn ra với quả bóng chày bay về phía sân nhà .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một vài đứa trẻ đang chơi với một quả bóng.
+Entities: người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang cầm vợt và bóng trên tay .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt đánh bóng trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh của người đàn ông áo đỏ đang cầm vợt tennis thi đấu trên sân .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cô bé đang giữ quả bóng chày ở trong cái găng tay .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo xanh lá đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang thi đấu trước đông đảo khán giả .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Hai nữ vận động viên tennis đang thi đấu ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang cầm vợt tennis và đứng ở trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Hai người phụ nữ đang thi đấu tennis cùng đội trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh kép của thủ môn đang nhảy lên bắt bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng , cầu thủ ném bóng và trọng tài đang đứng ở gôn .
+Entities: người, găng bóng chày, ghế
+--------------------------------------------------
+Caption: Người phụ nữ vừa thực hiện cú đỡ bóng cao bằng vợt tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng đá ở trên sân .
+Entities: người, đĩa bay, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh kép của người phụ nữ đang chơi tennis trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người đàn ông đang bay người để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những đứa trẻ đang mặc đồ bóng chày thi đấu bóng chày trên sân .
+Entities: ba lô, gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Một số những đứa trẻ đang chơi bóng đá trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng đang chuẩn bị đánh bóng .
+Entities: gậy bóng chày, quả bóng, chai, người, găng bóng chày
+--------------------------------------------------
+Caption: Hai bức ảnh của một trận thi đấu bóng đá nam ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bắt bóng và trọng tài đang theo dõi cú đánh bóng của cầu thủ đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá và trọng tài đang đứng ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nữ đang cầm vợt thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang cầm vợt giao bóng .
+Entities: người, vợt tennis, quả bóng, ghế
+--------------------------------------------------
+Caption: Hình ảnh trận bóng đá đang diễn ra trước đông đảo khán giả .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo xanh biển đang chơi tennis trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt chuẩn bị giao bóng .
+Entities: người, vợt tennis, đồng hồ
+--------------------------------------------------
+Caption: Người đàn ông mặc đồ trắng đang cầm gậy bóng chày .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ chạy gôn đang bay người vào cầu thủ bắt bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Người phụ nữ đang hạ vợt tennis xuống thấp đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh traajn bóng chày đang diễn ra ngoài sân cỏ .
+Entities: gậy bóng chày, người, găng bóng chày, xe hơi
+--------------------------------------------------
+Caption: Ở trên sân , một nữ vận động viên tennis đang chuẩn bị phát bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang thi đấu ở trên sân .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ đánh bóng đang vung gậy để đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày, ô
+--------------------------------------------------
+Caption: Người đàn ông đang cầm vợt đánh tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ nữ ném bóng đang chuẩn bị ném bóng về phía đối thủ .
+Entities: người, găng bóng chày, ghế
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang vung vợt đỡ bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của người đàn ông áo đỏ đang cầm vợt tennis đứng trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang bay người để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang chơi bóng chày ở trong công viên vào ban ngày .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
+Caption: Một trận thi đấu tennis đôi nam nữ đang diễn ra ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đứng trên sân đỡ bóng tennis bằng vợt tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo vàng đang chơi tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang nhảy lên để chuẩn bị đánh bóng ở trên sân tennis .
+Entities: người
+--------------------------------------------------
+Caption: Một cầu thủ đang dắt bóng ở trước các cầu thủ khác .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày áo số 26 đang cầm gậy thi đấu trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Đứa trẻ đang vung gậy bóng chày đánh bóng .
+Entities: gậy bóng chày, người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Các cầu thủ bóng đá đang thi đấu ở trên sân .
+Entities: người, đĩa bay, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang bước tới ném bóng .
+Entities: gậy bóng chày, người, chai
+--------------------------------------------------
+Caption: Hai cậu bé đang chụp ảnh sau khi chơi tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai người đàn ông đang nghiêng người để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang cầm vợt tennis và đứng cúi người ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày nữ đang vung gậy đánh bóng trên sân .
+Entities: gậy bóng chày, xe tải, quả bóng, người, găng bóng chày
+--------------------------------------------------
+Caption: Ở trên sân cỏ , một quả bóng đang nằm trong khung thành .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một nam vận động viên tennis đang vung vợt để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày trẻ đang ném bóng về phía trước .
+Entities: gậy bóng chày, người, chai
+--------------------------------------------------
+Caption: Một nữ vận động viên tennis đang chuẩn bị phát bóng .
+Entities: người
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của người phụ nữ đang cầm vợt tennis đứng trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị phát bóng ở trên sân tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông áo đỏ đang cầm vợt tennis thi đấu trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang luyện tập bóng chày ở ngoài trời .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Bốn người đàn ông đang chơi tennis ở trên sân .
+Entities: người
+--------------------------------------------------
+Caption: Hai vận động viên tennis nữ đang thi đấu cùng đội trên sân .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh của thủ môn nữ mặc áo đỏ đang chuẩn bị bắt bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Người phụ nữ đang cầm vợt tennis đỡ bóng thấp .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ bóng chày trẻ đang vung gậy bóng chày đỡ bóng .
+Entities: gậy bóng chày, người, xe hơi, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang vung vợt để đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở trên sân .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Một người đàn ông đang nhảy lên để đánh quả bóng tennis .
+Entities: người, ghế, quả bóng, chai
+--------------------------------------------------
+Caption: Người phụ nữ váy ngắn đang cầm vợt tennis chơi trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis nam đang cầm vợt đứng ngoài biên đỡ bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ ném bóng nữ đang thực hiện động tác ném bóng .
+Entities: người, găng bóng chày, ghế
+--------------------------------------------------
+Caption: Hình ảnh trắng đen của trận đấu bóng chày với đông đảo khán giả quan sát .
+Entities: gậy bóng chày, người
+--------------------------------------------------
+Caption: Một cầu thủ đánh bóng đang đứng nghiêng người qua trái .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Những người đàn ông đang chơi bóng chày ở trên sân .
+Entities: ba lô, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang cầm gậy bóng chày và đứng cạnh số 754 .
+Entities: gậy bóng chày, người, găng bóng chày
+--------------------------------------------------
+Caption: Hình ảnh của gậy bóng chày và quả bóng chày đang trưng bày trên bàn .
+Entities: gậy bóng chày, quả bóng
+--------------------------------------------------
+Caption: Người đàn ông đang cầm vợt bước sáng phải đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Ở trên sân tennis , một người phụ nữ đang chuẩn bị phát bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Một nữ cầu thủ bóng đá đang nhảy lên để đá quả bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ ném bóng đang cầm quả bóng ở trên tay để ném .
+Entities: người, găng bóng chày, ghế
+--------------------------------------------------
+Caption: Người đàn ông áo trắng đang chơi tennis trên sân .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Hình ảnh kép của người phụ nữ đang đánh tennis trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cầu thủ ném bóng đang thực hiện động tác ném bóng .
+Entities: người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Một người phụ nữ đang chuẩn bị đánh quả bóng tennis .
+Entities: người, xe hơi, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai hình ảnh giống nhau của những người phụ nữ đang chwoi tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ áo xanh đang tranh chấp bóng với cầu thủ áo trắng .
+Entities: người, đĩa bay, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang vung gậy bóng chày để đánh bóng .
+Entities: gậy bóng chày, người, găng bóng chày, quả bóng
+--------------------------------------------------
+Caption: Cô gái áo tím đang chuẩn bị đánh quả bóng tennis .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hình ảnh một cầu thủ thực hiện phạt góc trong trận bóng đá .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Một người đàn ông đang chạm cái vợt tennis vào quả bóng .
+Entities: người, vợt tennis
+--------------------------------------------------
+Caption: Hai bức ảnh của một người đàn ông đang cố gắng để cứu quả bóng tennis
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Vận động viên tennis đang cầm vợt đứng ngoài biên giao bóng .
+Entities: người, quả bóng
+--------------------------------------------------
+Caption: Cầu thủ số 10 đang chạy về gôn trong khi cầu thủ bắt bóng đang nhảy lên để bắt bóng .
+Entities: người, găng bóng chày
+--------------------------------------------------
+Caption: Đứa trẻ đang đứng trên sân tennis tay cầm vợt tennis .
+Entities: đĩa bay, vợt tennis, quả bóng, người, xe hơi
+--------------------------------------------------
+Caption: Hai nam vận động viên tennis đang nghiêng người để đánh bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Đứa trẻ đang chơi bóng chày ngoài sân .
+Entities: gậy bóng chày, người, chai
+--------------------------------------------------
+Caption: Một cầu thủ bóng chày cầm gậy trên sân bóng chày.
+Entities: người
+--------------------------------------------------
+Caption: Hai bức ảnh của vận động viên tennis nữ đang dùng vợt để đỡ bóng .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Hai bức ảnh của một người đàn ông đang chơi tennis ở trên sân .
+Entities: người, vợt tennis, quả bóng
+--------------------------------------------------
+Caption: Một cậu bé đang vung gậy bóng chày để đánh bóng trong công viên .
+Entities: gậy bóng chày, người, quả bóng
+--------------------------------------------------
