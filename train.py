@@ -158,14 +158,14 @@ if __name__ == '__main__':
         set_seed(args.random_seed)
 
     # load models
-    clip_encoder = CLIPEncoder(args.clip_model, device=args.device)
+    # clip_encoder = CLIPEncoder(args.clip_model, device=args.device)
     gpt_model = GPT2LanguageModel(model_name=args.language_model, device=args.device)
     
-    clip_hidden_size = clip_encoder.hidden_size
+    clip_hidden_size = 1024
 
     datasets = CaptionsDataset(
         lm = gpt_model,
-        clip_encoder = clip_encoder,
+        clip_model = args.clip_model,
         max_num_of_entities = args.max_num_of_entities,
         using_clip_features = args.using_clip_features,
         path_of_datasets = args.path_of_datasets,

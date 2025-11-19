@@ -3,7 +3,7 @@ import pickle
 import random
 from typing import Tuple
 from torch.utils.data import Dataset
-
+from src.llm.clip_encoder import CLIPEncoder
 from src.data.utils import parse_entities, padding_captions
 from src.data.load_annotations import load_entities_text, load_stopwords
 
@@ -13,7 +13,7 @@ class CaptionsDataset(Dataset):
     def __init__(
         self,
         lm,                    # GPT2LanguageModel (src.llm.gpt2_model)
-        clip_encoder,          # CLIPEncoder (src.llm.clip_encoder)
+        clip_model,          # CLIPEncoder (src.llm.clip_encoder)
         max_num_of_entities=5,
         using_clip_features=False,
         path_of_datasets='./annotations/viic/viic_with_entities.pkl',
@@ -23,14 +23,11 @@ class CaptionsDataset(Dataset):
 
         self.args = args
         self.lm = lm
-        self.clip_encoder = clip_encoder
+        self.clip_model = clip_model
         self.using_clip_features = using_clip_features
 
         # tokenizer VN GPT2
         self.tokenizer = lm.tokenizer
-
-        # CLIP processor (thay clip.tokenize)
-        self.clip_processor = clip_encoder.processor
 
         # Load dataset
         with open(path_of_datasets, "rb") as f:
@@ -66,6 +63,9 @@ class CaptionsDataset(Dataset):
                 ents, caption, clip_feat = entry
                 self.captions_clip_features.append(clip_feat)
             else:
+                clip_encoder = CLIPEncoder(model_name = self.clip_model, device = self.args.device)
+                self.clip_processor = clip_encoder.processor
+                
                 ents, caption = entry
 
                 # fallback → tokenize bằng AltCLIP processor (77 tokens)
