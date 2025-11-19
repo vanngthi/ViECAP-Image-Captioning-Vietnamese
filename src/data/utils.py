@@ -25,14 +25,17 @@ def entities_process(
     args,
     detected_entities: List[str],  # [man, dog, park]
     stopwords: List[str],
+    people_vocabs: List[str],
     objects_vocabs: List[str],
 ) -> List[str]:
     process_entities = []
     for i in range(len(detected_entities)):
         if i >= args.max_num_of_entities: # There is no entity detected
             break
-        detected_entity = detected_entities[i]                # processing the i-th entity
-        if len(detected_entity) > 1 and detected_entity not in stopwords and detected_entity in objects_vocabs: # only processing entities in visual genome
+        detected_entity = detected_entities[i]
+        if any(p in detected_entity for p in people_vocabs): # processing peple entities, example "cầu thủ bóng đá" in "cầu thủ" in people_vocabs -> "người"
+            detected_entity = "người"
+        elif len(detected_entity) > 1 and detected_entity not in stopwords and detected_entity in objects_vocabs: # only processing entities in visual genome
             pass
         else: # processing the next entities
             continue
@@ -75,6 +78,7 @@ def parse_entities(
     tokenizer,
     detected_entities: Tuple[str],      # [[man, dog, park, ...], len = batch size
     stopwords: List[str],
+    people_vocabs: List[str],
     objects_vocabs: List[str],
 ) -> List[torch.Tensor]:
     # List[(n_seq1, ), (n_seq2, ), ...]
@@ -82,7 +86,7 @@ def parse_entities(
     discrete_tokens = []
     for idx in range(len(detected_entities)):
         # entities processing
-        process_entities = entities_process(args, detected_entities[idx], stopwords, objects_vocabs)
+        process_entities = entities_process(args, detected_entities[idx], stopwords, people_vocabs, objects_vocabs)
         process_entities = list(set(process_entities)) # list
 
         # tokenizing

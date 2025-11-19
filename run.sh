@@ -1,15 +1,15 @@
 
 echo "Running entity extraction and text features extraction..."
-python -m src.data.entity_extractor \
-  --image_dir ./dataset/UIT-ViIC/images \
-  --caption_path ./dataset/UIT-ViIC/uitviic_captions_train2017.json \
-  --out_pickle ./annotations/uit_viic_entities.pkl \
-  --top_k 5 \
-  --mode text
+# python -m src.data.entity_extractor \
+#   --image_dir ./dataset/UIT-ViIC/images \
+#   --caption_path ./dataset/UIT-ViIC/uitviic_captions_train2017.json \
+#   --out_pickle ./annotations/uit_viic_entities.pkl \
+#   --top_k 5 \
+#   --mode text
 
-# python -m src.data.texts_features_extraction \
-#   --inpath annotations/uit_viic_entities.pkl \
-#   --outpath annotations/uit_viic_entities_with_features.pkl
+python -m src.data.texts_features_extraction \
+  --inpath annotations/uit_viic_entities.pkl \
+  --outpath annotations/uit_viic_entities_with_features.pkl
 
 # EXP_NAME="viecap_vi_multilingual_mask20"
 # mkdir -p ./logs/$EXP_NAME
