@@ -4,8 +4,8 @@ import random
 from typing import Tuple
 from torch.utils.data import Dataset
 
-from utils import parse_entities, padding_captions
-from load_annotations import load_entities_text, load_stopwords
+from src.data.utils import parse_entities, padding_captions
+from src.data.load_annotations import load_entities_text, load_stopwords
 
 
 class CaptionsDataset(Dataset):

@@ -13,6 +13,9 @@ class CLIPEncoder:
 
         self.processor = AutoProcessor.from_pretrained(model_name)
         self.model = AutoModel.from_pretrained(model_name).to(device).eval()
+        self.hidden_size = self.model.text_projection.weight.shape[1]
+
+        print(f"[CLIPEncoder] hidden_size = {self.hidden_size}")
 
     @torch.no_grad()
     def encode_image(self, image):

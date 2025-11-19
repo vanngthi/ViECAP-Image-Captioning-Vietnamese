@@ -61,7 +61,7 @@ def compose_discrete_prompts(
     prompt_tail = ' trong ảnh.'
 
     if len(process_entities) == 0: # without entities
-        discrete_prompt =  prompt_head + ' vật nào đó' + prompt_tail
+        discrete_prompt =  prompt_head + ' sự vật hoặc sự việc nào đó' + prompt_tail
     else:
         discrete_prompt = ''
         for entity in process_entities: # gpt2 in transformer encoder ' ' + word into one token by default

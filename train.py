@@ -10,6 +10,8 @@ import torch.nn.functional as nnf
 from src.data.utils import noise_injection
 from torch.utils.data import DataLoader
 from src.data.dataset import CaptionsDataset, collate
+from src.llm.clip_encoder import CLIPEncoder
+from src.llm.gpt2_model import GPT2LanguageModel
 from src.models.ClipCap import ClipCaptionModel, ClipCaptionPrefix
 from torch.optim import AdamW
 # from transformers import get_linear_schedule_with_warmup
@@ -148,17 +150,22 @@ if __name__ == '__main__':
     parser.add_argument('--num_workers', type = int, default = 0)
     parser.add_argument('--use_amp', action = 'store_true', default = False, help = "whether to use torch.amp to acclerate training")
     parser.add_argument('--disable_random_seed', action = 'store_true', default = False, help = 'set random seed for reproducing')
-    parser.add_argument('--random_seed', type = int, default = 30, help = 'set random seed for reproducing')
+    parser.add_argument('--random_seed', type = int, default = 42, help = 'set random seed for reproducing')
 
     args = parser.parse_args()
     print(f'args: {vars(args)}')
     if not args.disable_random_seed:
         set_seed(args.random_seed)
 
-    clip_hidden_size = 1024
+    # load models
+    clip_encoder = CLIPEncoder(args.clip_model, device=args.device)
+    gpt_model = GPT2LanguageModel(model_name=args.language_model, device=args.device)
+    
+    clip_hidden_size = clip_encoder.hidden_size
 
     datasets = CaptionsDataset(
-        language_model = args.language_model,
+        lm = gpt_model,
+        clip_encoder = clip_encoder,
         max_num_of_entities = args.max_num_of_entities,
         using_clip_features = args.using_clip_features,
         path_of_datasets = args.path_of_datasets,
@@ -166,12 +173,13 @@ if __name__ == '__main__':
         args = args
     )
     
-    sample = datasets[0]
+    sample = datasets[2]
+    
     args, captions_clip, captions_gpt_tokens, masks, discrete_tokens = sample
 
     print("---- Dataset Sample ----")
-    print("Entities:", datasets.detected_entities[0])
-    print("Caption:", datasets.captions[0])
+    print("Entities:", datasets.detected_entities[2])
+    print("Caption:", datasets.captions[2])
     print("CLIP tokens shape:", captions_clip.shape)
     print("GPT tokens:", captions_gpt_tokens[:20])
     print("Mask:", masks[:20])
@@ -184,9 +192,36 @@ if __name__ == '__main__':
         
     print("------------------------")
 
+    # sample = datasets[4]
+    
+    # args, captions_clip, captions_gpt_tokens, masks, discrete_tokens = sample
+
+    # print("---- Dataset Sample ----")
+    # print("Entities:", datasets.detected_entities[4])
+    # print("Caption:", datasets.captions[4])
+    # print("CLIP tokens shape:", captions_clip.shape)
+    # print("GPT tokens:", captions_gpt_tokens[:20])
+    # print("Mask:", masks[:20])
+    # print("Discrete tokens:", discrete_tokens)
+    # if discrete_tokens is not None:
+    #     prompt_text = datasets.tokenizer.decode(discrete_tokens.tolist(), skip_special_tokens=True)
+    #     print("Hard prompt (decoded):", prompt_text)
+    # else:
+    #     print("No hard prompt (using_hard_prompt=False)")
+        
+    # print("------------------------")
+    
     if args.frozen_gpt:
         model = ClipCaptionPrefix(args.continuous_prompt_length, args.clip_project_length, clip_hidden_size, args.num_layers, gpt_type = args.language_model, soft_prompt_first = args.soft_prompt_first, only_hard_prompt = args.only_hard_prompt)
     else:
-        model = ClipCaptionModel(args.continuous_prompt_length, args.clip_project_length, clip_hidden_size, args.num_layers, gpt_type = args.language_model, soft_prompt_first = args.soft_prompt_first, only_hard_prompt = args.only_hard_prompt)
+        model = ClipCaptionModel(
+            continuous_length=args.continuous_prompt_length,
+            clip_project_length=args.clip_project_length,
+            clip_hidden_size=clip_hidden_size,
+            num_layers=args.num_layers,
+            gpt_model=gpt_model,                        # truyền model object
+            soft_prompt_first=args.soft_prompt_first,
+            only_hard_prompt=args.only_hard_prompt
+        ).to(args.device)
     
     train(args, datasets, model, output_dir = args.out_dir, output_prefix = args.prefix)

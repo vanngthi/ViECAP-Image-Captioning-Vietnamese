@@ -10,7 +10,8 @@ class GPT2LanguageModel:
         print(f"[GPT2] Loading {model_name} (search={search})")
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.model = AutoModelForCausalLM.from_pretrained(model_name).to(device)
-
+        self.hidden_size = self.model.config.hidden_size
+        
         if self.tokenizer.pad_token is None:
             self.tokenizer.pad_token = self.tokenizer.eos_token
 
