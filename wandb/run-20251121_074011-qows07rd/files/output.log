@@ -1,0 +1,32 @@
+Dataset Loading: annotations/uit_viic_entities_with_features.pkl successful. Max sentence length: 34
+---- Dataset Sample ----
+Entities: ['cầu thủ tennis', 'vợt tennis', 'bóng']
+Caption: Một cầu thủ tennis đang vung vợt tennis đỡ bóng .
+CLIP tokens shape: torch.Size([1024])
+GPT tokens: tensor([1726,  731,  866, 9695,  662, 7782, 6249, 9695, 2204, 1304, 1204,    0,
+           0,    0,    0,    0,    0,    0,    0,    0])
+Mask: tensor([1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0.])
+Discrete tokens: tensor([1977,  390,   16, 1304,  366,  860,   18])
+Hard prompt (decoded): Có người, bóng trong ảnh.
+------------------------
+/DATA/van-n/phenikaa/ViTrCap/train.py:72: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.use_amp)
+>>> Training epoch 0
+coco_prefix:   0%|          | 0/421 [00:00<?, ?it/s]/DATA/van-n/phenikaa/ViTrCap/train.py:116: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=args.use_amp):
+coco_prefix: 100%|██████████| 421/421 [03:20<00:00,  2.10it/s, loss=1.79]
+epoch 0, iter 83, avg loss: 3.9808944946243647
+epoch 0, iter 167, avg loss: 2.84084742693674
+epoch 0, iter 251, avg loss: 2.0655415725140345
+epoch 0, iter 335, avg loss: 1.8319855005968184
+epoch 0, iter 419, avg loss: 1.7090365006810142
+>>> Epoch 0 avg loss: 2.4840113139775473
+Saving checkpoint → ./checkpoints/viecap_vietnamese/coco_prefix-000.pt
+Traceback (most recent call last):
+  File "/DATA/van-n/phenikaa/ViTrCap/train.py", line 307, in <module>
+    train(args, datasets, model, output_dir = args.out_dir, output_prefix = args.prefix)
+  File "/DATA/van-n/phenikaa/ViTrCap/train.py", line 200, in train
+    wandb.log({"samples": sample_logs})
+                          ^^^^^^^^^^^
+NameError: name 'sample_logs' is not defined

@@ -11,7 +11,7 @@
 #   --inpath annotations/uit_viic_entities.pkl \
 #   --outpath annotations/uit_viic_entities_with_features.pkl
 
-EXP_NAME="viecap_vi_mask20"
+EXP_NAME="viecap_vietnamese"
 mkdir -p ./logs/$EXP_NAME
 LOG_FILE=./logs/$EXP_NAME/$(date "+%Y-%m-%d-%H-%M-%S").log
 
@@ -19,18 +19,16 @@ echo "Training model ..."
 python train.py \
   --using_clip_features \
   --using_hard_prompt \
-  --bs 16 \
-  --lr 2e-5 \
-  --epochs 50 \
+  --prefix "uiit-vietnamses" \
+  --bs 32 \
+  --lr 5e-5 \
+  --epochs 100 \
   --device cuda:0 \
   --clip_model "BAAI/AltCLIP-m18" \
   --language_model NlpHUST/gpt2-vietnamese \
-  --random_mask \
-  --prob_of_random_mask 0.2 \
-  --using_clip_features \
-  --num_layers 8 \
-  --continuous_prompt_length 15 \
-  --clip_project_length 15 \
+  --num_layers 10 \
+  --continuous_prompt_length 10 \
+  --clip_project_length 10 \
   --out_dir ./checkpoints/$EXP_NAME \
   --path_of_datasets annotations/uit_viic_entities_with_features.pkl \
   --name_of_objects_vocabs vietnamese_entities \

@@ -325,8 +325,8 @@ Entities: người đàn ông, quả bóng
 Caption: Người đàn ông cầm dây lướt ván trên biển .
 Entities: người đàn ông, dây, biển, lướt ván
 --------------------------------------------------
-Caption: Người đàn ông đang lướt ván trên mặt nước .
-Entities: ngườ đàn ông, mặt nước, đang
+Caption: Người đang ông đang lướt ván trên mặt nước .
+Entities: người, ông, mặt nước, đang
 --------------------------------------------------
 Caption: Những người đàn ông đang chơi đá bóng trên sân đá .
 Entities: người đàn ông, bóng, sân, đá
@@ -394,8 +394,8 @@ Entities: người đàn ông
 Caption: Một người đàn ông đang ngồi trên ghế cầm quả bóng trên tay .
 Entities: người đàn ông, ghế, quả bóng, tay
 --------------------------------------------------
-Caption: Một người đàn ông đang ngồi quan sát tay cầm quả bóng .
-Entities: người đàn ông, tay, quả bóng, đang, cầm
+Caption: Một người đang ông đang ngồi quan sát tay cầm quả bóng .
+Entities: người, ông, tay, quả bóng, đang, cầm
 --------------------------------------------------
 Caption: Một người đàn ông ngồi cầm bóng và một người quan sát .
 Entities: người đàn ông, bóng, người, quan sát
@@ -409,8 +409,8 @@ Entities: chú chó, quả bóng tennis
 Caption: Một chú chó đang ngậm quả bóng tennis .
 Entities: chú chó, quả bóng tennis
 --------------------------------------------------
-Caption: Một chú chó leo trèo ngậm quả bóng tennis .
-Entities: chú chó, quả bóng tennis
+Caption: Một chú tró leo trèo ngậm quả bóng tennis .
+Entities: chú tró, quả bóng tennis
 --------------------------------------------------
 Caption: Một chú chó đang ngậm bóng tennis leo trèo .
 Entities: chú chó, bóng tennis
@@ -421,8 +421,8 @@ Entities: chú chó, quả bóng tennis, miệng
 Caption: Cảnh quan một công viên với nhiều người đang chơi tennis .
 Entities: cảnh quan, công viên, người, tennis, với, nhiều
 --------------------------------------------------
-Caption: Một cậu bé đang cầm vợt tennis chơi ngoài sân .
-Entities: vợt tennis, sân, cậu bé
+Caption: Một caaju bé đang cầm vợt tennis chơi ngoài sân .
+Entities: vợt tennis, sân, caaju, bé
 --------------------------------------------------
 Caption: Một số người đang chơi tennis trên sân gạch .
 Entities: người, tennis, sân gạch
@@ -3850,8 +3850,8 @@ Entities: người phụ nữ áo, bóng, tay, đứa trẻ, tím
 Caption: Một người đàn ông đang ngiêng người qua phải để đánh quả bóng tennis .
 Entities: người đàn ông, người, bóng tennis, qua
 --------------------------------------------------
-Caption: Người phụ nữ đeo kính đen đang nắm tay đứa trẻ đi bộ trên sân bóng .
-Entities: người phụ nữ, kính, tay đứa trẻ, bộ, sân bóng, đeo, đen, đi
+Caption: Người hụ nữ đeo kính đen đang nắm tay đứa trẻ đi bộ trên sân bóng .
+Entities: người hụ nữ, kính, tay đứa trẻ, bộ, sân bóng, đeo, đen, đi
 --------------------------------------------------
 Caption: Một cầu thủ ném bóng đang luyện tập ném bóng .
 Entities: cầu thủ, bóng, ném

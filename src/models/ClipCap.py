@@ -152,98 +152,100 @@ class MappingNetwork(nn.Module):
 
         return outputs
 
+def get_language_mode(lm_type):
+    if 'gpt' in lm_type:
+        model = GPT2LMHeadModel.from_pretrained(lm_type)
+        hidden_size = model.config.hidden_size
+    elif 'opt' in lm_type:
+        from modeling_opt import OPTForCausalLM
+        model = OPTForCausalLM.from_pretrained(lm_type, torch_dtype = torch.float16)
+        hidden_size = model.config.word_embed_proj_dim
+    return model, hidden_size
+
 class ClipCaptionModel(nn.Module):
 
     def __init__(
         self,
-        continuous_length: int,
-        clip_project_length: int,
-        clip_hidden_size: int,
-        num_layers: int,
-        gpt_model,
-        soft_prompt_first: bool,
-        only_hard_prompt: bool
-    ):
-        super().__init__()
-
+        continuous_length: int = 10,
+        clip_project_length: int = 10,
+        clip_hidden_size: int = 512,
+        num_layers: int = 8,
+        num_heads: int = 8,
+        gpt_type: str = 'gpt2',
+        soft_prompt_first: bool = False,
+        only_hard_prompt: bool = False
+    ) -> None:
+        """
+        Args:
+            continuous_length: the length of soft prompts which will be fed into language model as continuous part
+            clip_project_length: clip cls features (b, 1, d) -> (b, n, d)
+            clip_hidden_size: the dimensions of CLIP features
+            num_layers: the number of layer in projector
+            num_heads: the number of heads each layer
+            gpt_type: the language model
+            soft_prompt_first: False -> hard prompt + soft prompt; True -> soft prompt + hard prompt
+            only_hard_prompt: using the hard prompts only
+        """
+        super(ClipCaptionModel, self).__init__()
         self.soft_prompt_first = soft_prompt_first
         self.only_hard_prompt = only_hard_prompt
         self.continuous_length = continuous_length
-
-        # GPT2 model (from your custom gpt2_model.py)
-        self.gpt = gpt_model.model
-        self.gpt_hidden_size = gpt_model.hidden_size
-        self.tokenizer = gpt_model.tokenizer
-
-        # Mapping CLIP → GPT2 prefix
-        self.mapping_network = MappingNetwork(
-            clip_project_length,
-            clip_hidden_size,
-            continuous_length,
-            self.gpt_hidden_size,
-            num_layers,
-            num_heads=8
-        )
-
+        self.gpt, self.gpt_hidden_size  = get_language_mode(gpt_type)
+        self.mapping_network = MappingNetwork(clip_project_length, clip_hidden_size, continuous_length, self.gpt_hidden_size, num_layers, num_heads)
+        self.gpt_type = gpt_type
+    
     def word_embed(self, caption_tokens):
-        # GPT2 embedding lookup
-        return self.gpt.transformer.wte(caption_tokens)
-
+        if 'gpt' in self.gpt_type:
+            caption_embeddings = self.gpt.transformer.wte(caption_tokens)         # (b, caption_length, gpt_hidden_size)
+        elif 'opt' in self.gpt_type:
+            caption_embeddings = self.gpt.model.decoder.embed_tokens(caption_tokens)
+        return caption_embeddings
+    
     def forward(
         self,
         continuous_prompt: torch.Tensor,
         caption_tokens: torch.Tensor,
         hard_prompts_length: Optional[List] = None,
         mask: Optional[torch.Tensor] = None,
-    ):
-        # 1. Caption Embeddings
+    ) -> Tuple[torch.Tensor, ...]:
+        """
+        Args:
+            continuous_prompt: tensor with a shape of (b, clip_hidden_size), in text-only training, the caption features are eaxtracted from CLIP and used as image features
+            caption_tokens: caption tokens with a shape of (b, max_length_per_caption)
+            hard_prompts_length: list with len = batch size, the length of hard prompts constructed for each caption
+            mask: tensor with a shape of (b, discrete_length + continuous_length + max_length_per_caption), valid texts for attention computing
+        Return:
+            the output of language model
+        """
         caption_embeddings = self.word_embed(caption_tokens)
-
-        # 2. Soft prompt / CLIP prefix
-        continuous_embeddings = self.mapping_network(continuous_prompt).view(
-            -1, self.continuous_length, self.gpt_hidden_size
-        )
-
-        # 3. Hard prompt logic
+        continuous_embeddings = self.mapping_network(continuous_prompt).view(-1, self.continuous_length, self.gpt_hidden_size) # (b, continuous_length, gpt_hidden_size)
         if hard_prompts_length is not None:   # with hard prompts
             if self.only_hard_prompt:
                 embeddings = caption_embeddings
-
-            elif self.soft_prompt_first:
-                # soft → hard
-                embeddings = torch.cat((continuous_embeddings, caption_embeddings), dim=1)
-
-            else:
-                # hard → soft
+            elif self.soft_prompt_first:      # soft prompts + hard prompts
+                embeddings = torch.cat((continuous_embeddings, caption_embeddings), dim = 1)
+            else:                             # hard prompts + soft prompts
                 embeddings = None
                 for i in range(len(hard_prompts_length)):
                     length = hard_prompts_length[i]
-                    temp = torch.cat((
-                        caption_embeddings[i][:length],
-                        continuous_embeddings[i],
-                        caption_embeddings[i][length:]
-                    ), dim=0).unsqueeze(0)
+                    temp_embeddings = torch.cat((caption_embeddings[i][:length], continuous_embeddings[i], caption_embeddings[i][length:]), dim = 0).unsqueeze(dim = 0)
+                    if embeddings is None:
+                        embeddings = temp_embeddings
+                    else:
+                        embeddings = torch.cat((embeddings, temp_embeddings), dim = 0)
+        else: # without hard prompts
+            embeddings = torch.cat((continuous_embeddings, caption_embeddings), dim = 1)       # (b, continuous_length + caption_length, gpt_hidden_size)
 
-                    embeddings = temp if embeddings is None else torch.cat((embeddings, temp), 0)
-
-        else:
-            # no hard prompt → soft + caption
-            embeddings = torch.cat((continuous_embeddings, caption_embeddings), dim=1)
-
-        # 4. LM forward pass
-        out = self.gpt(
-            inputs_embeds=embeddings.type(self.gpt.dtype),
-            attention_mask=mask
-        )
+        out = self.gpt(inputs_embeds = embeddings.type(self.gpt.dtype), attention_mask = mask)
 
         return out
 
 class ClipCaptionPrefix(ClipCaptionModel):
 
-    def parameters(self, recurse=True):
+    def parameters(self, recurse: bool = True):
         return self.mapping_network.parameters()
 
-    def train(self, mode=True):
-        super().train(mode)
-        self.gpt.eval()    # freeze GPT
+    def train(self, mode: bool = True):
+        super(ClipCaptionPrefix, self).train(mode)
+        self.gpt.eval()
         return self

@@ -1,4 +1,5 @@
 import os
+import wandb
 import sys
 import clip
 import torch
@@ -14,7 +15,7 @@ from src.llm.clip_encoder import CLIPEncoder
 from src.llm.gpt2_model import GPT2LanguageModel
 from src.models.ClipCap import ClipCaptionModel, ClipCaptionPrefix
 from torch.optim import AdamW
-# from transformers import get_linear_schedule_with_warmup
+from transformers import get_linear_schedule_with_warmup
 from transformers import get_cosine_schedule_with_warmup
 from transformers import AutoModel, AutoProcessor
 
@@ -28,23 +29,20 @@ def set_seed(seed: int) -> None:
     torch.backends.cudnn.benchmark = False
 
 def train(
-    args,                      # parameters used for training
-    datasets: CaptionsDataset, # datasets used for training
-    model: ClipCaptionModel,   # captioning model used for training
-    warmup_steps: int = 5000,  # warming up steps used for traing
-    output_dir: str = '.',     # output path of the wights
-    output_prefix: str = ''    # file prefix name of saved weights
+    args,
+    datasets: CaptionsDataset,
+    model: ClipCaptionModel,
+    warmup_steps: int = 5000,
+    output_dir: str = '.',
+    output_prefix: str = ''
 ):
     device = args.device
     batch_size = args.bs
     epochs = args.epochs
-    
 
-    # if the path of outputs does not exist, create it according to the output_dir 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    # loading model
     model = model.to(device)
     model.train()
     if not args.using_clip_features:
@@ -52,71 +50,158 @@ def train(
         encoder = AutoModel.from_pretrained(args.clip_model).to(device)
         encoder.eval()
 
-    # method of optimization
-    optimizer = AdamW(model.parameters(), lr = args.lr)
-    dataloader = DataLoader(datasets, batch_size = batch_size, shuffle = True, drop_last = True, num_workers=args.num_workers, collate_fn=collate)
+    optimizer = AdamW(model.parameters(), lr=args.lr)
+    dataloader = DataLoader(
+        datasets,
+        batch_size=batch_size,
+        shuffle=True,
+        drop_last=True,
+        num_workers=args.num_workers,
+        collate_fn=collate
+    )
+
     tokenizer = dataloader.dataset.tokenizer
     total_steps = epochs * len(dataloader)
     warmup_steps = int(0.05 * total_steps)
-    # schedular = get_linear_schedule_with_warmup(optimizer, num_warmup_steps = warmup_steps, num_training_steps = epochs * len(dataloader))
-    schedular = get_cosine_schedule_with_warmup(optimizer, num_warmup_steps=warmup_steps,
-                                            num_training_steps=epochs * len(dataloader))
-    scaler = torch.cuda.amp.GradScaler(enabled = args.use_amp)
+    scheduler = get_linear_schedule_with_warmup(
+        optimizer,
+        num_warmup_steps=warmup_steps,
+        num_training_steps=epochs * len(dataloader)
+    )
+
+    scaler = torch.cuda.amp.GradScaler(enabled=args.use_amp)
+
     for epoch in range(epochs):
-        # visualization
         sys.stdout.flush()
         print(f">>> Training epoch {epoch}")
-        progress = tqdm(total = len(dataloader), desc = output_prefix)
+        progress = tqdm(total=len(dataloader), desc=output_prefix)
+
         train_loss_sum = 0
-        # training
-        for idx, (captions_clip, captions_gpt_tokens, captions_tokens_for_loss, masks, hard_prompts_length) in enumerate(dataloader):
+        epoch_loss_accum = 0
+
+        for idx, (captions_clip,
+                  captions_gpt_tokens,
+                  captions_tokens_for_loss,
+                  masks,
+                  hard_prompts_length) in enumerate(dataloader):
+
             model.zero_grad()
+
+            # -------- prefix extraction --------
             if not args.using_clip_features:
                 with torch.no_grad():
-                    captions_clip_tokens = captions_clip.to(device)  # caption_clip -> tokens, (b, 77)
-                    text_inputs = processor(text=[datasets.captions[i] for i in range(batch_size)], return_tensors="pt", padding=True).to(device)
+                    text_inputs = processor(
+                        text=[datasets.captions[i] for i in range(batch_size)],
+                        return_tensors="pt",
+                        padding=True
+                    ).to(device)
                     continuous_prefix = encoder.get_text_features(**text_inputs).float()
             else:
                 continuous_prefix = captions_clip.to(device).float()
 
             if args.normalize_prefix:
-                continuous_prefix /= continuous_prefix.norm(2, dim = -1, keepdim = True)
-            continuous_prefix = noise_injection(continuous_prefix, variance = args.noise_variance, device = args.device)
-            captions_gpt_tokens, captions_tokens_for_loss, masks = captions_gpt_tokens.to(device), captions_tokens_for_loss.to(device), masks.to(device)
+                continuous_prefix /= continuous_prefix.norm(2, dim=-1, keepdim=True)
 
-            with torch.cuda.amp.autocast(enabled = args.use_amp):                
+            continuous_prefix = noise_injection(
+                continuous_prefix,
+                variance=args.noise_variance,
+                device=device
+            )
+
+            captions_gpt_tokens = captions_gpt_tokens.to(device)
+            captions_tokens_for_loss = captions_tokens_for_loss.to(device)
+            masks = masks.to(device)
+
+            # -------- forward pass --------
+            with torch.cuda.amp.autocast(enabled=args.use_amp):
                 if args.using_hard_prompt:
-                    outputs = model(continuous_prefix, captions_gpt_tokens, hard_prompts_length, masks)
-                    logits = outputs.logits # (batch_size, max_length, vocab_size)
+                    outputs = model(
+                        continuous_prefix,
+                        captions_gpt_tokens,
+                        hard_prompts_length,
+                        masks
+                    )
+                    logits = outputs.logits
                 else:
-                    outputs = model(continuous_prefix, captions_gpt_tokens, mask = masks)
-                    logits = outputs.logits # (batch_size, max_length, vocab_size)
-            captions_tokens_for_loss = captions_tokens_for_loss.masked_fill(captions_tokens_for_loss == tokenizer.eos_token_id, 0)
+                    outputs = model(
+                        continuous_prefix,
+                        captions_gpt_tokens,
+                        mask=masks
+                    )
+                    logits = outputs.logits
 
-            # ignore_index = target, value: specifying a target value that is ignored and does not contribute to the input gradient
-            loss = nnf.cross_entropy(logits.reshape(-1, logits.shape[-1]), captions_tokens_for_loss.flatten(), ignore_index = 0)
+            captions_tokens_for_loss = captions_tokens_for_loss.masked_fill(
+                captions_tokens_for_loss == tokenizer.eos_token_id, 0
+            )
+
+            loss = nnf.cross_entropy(
+                logits.reshape(-1, logits.shape[-1]),
+                captions_tokens_for_loss.flatten(),
+                ignore_index=0
+            )
+
+            # -------- backward + optimizer --------
             scaler.scale(loss).backward()
+
+            # -------- gradient norm logging --------
+            grad_norm = 0.0
+            for p in model.parameters():
+                if p.grad is not None:
+                    grad_norm += (p.grad.data.norm(2).item())**2
+            grad_norm = grad_norm**0.5
+            wandb.log({"train/grad_norm": grad_norm})
+
             scaler.step(optimizer)
             scaler.update()
             optimizer.zero_grad()
-            schedular.step()
+            scheduler.step()
+
+            # -------- basic logs --------
             progress.set_postfix({"loss": loss.item()})
             progress.update()
+
+            wandb.log({
+                "train/loss_iter": loss.item(),
+                "train/lr": optimizer.param_groups[0]["lr"]
+            })
+
+            epoch_loss_accum += loss.item()
             train_loss_sum += loss.item()
+
+            # print loss block
             log_iters = len(dataloader)//5 if len(dataloader) > 5 else len(dataloader)
-            if (idx + 1) % (log_iters) == 0:
-                print('epoch {}, iter {}, average train loss: {}'.format(epoch, idx, train_loss_sum / log_iters))
+            if (idx + 1) % log_iters == 0:
+                avg_loss = train_loss_sum / log_iters
+                print(f'epoch {epoch}, iter {idx}, avg loss: {avg_loss}')
+                wandb.log({"train/loss_avg_block": avg_loss})
                 train_loss_sum = 0
-                torch.save(model.state_dict(), os.path.join(output_dir, f"{output_prefix}_latest.pt"))
+
+                latest_ckpt = os.path.join(output_dir, f"{output_prefix}_latest.pt")
+                torch.save(model.state_dict(), latest_ckpt)
+                wandb.save(latest_ckpt)
+
         progress.close()
-        if (epoch+1) % args.save_every == 0 or epoch == epochs - 1:
+
+        # -------- epoch loss log --------
+        epoch_avg_loss = epoch_loss_accum / len(dataloader)
+        wandb.log({
+            "train/loss_epoch": epoch_avg_loss,
+            "epoch": epoch
+        })
+        print(f">>> Epoch {epoch} avg loss: {epoch_avg_loss}")
+
+        # -------- save checkpoint --------
+        if (epoch + 1) % args.save_every == 0 or epoch == epochs - 1:
             ckpt_path = os.path.join(output_dir, f"{output_prefix}-00{epoch}.pt")
             torch.save(model.state_dict(), ckpt_path)
-            print(f'saving checkpoint to {ckpt_path}')
+            print(f"Saving checkpoint → {ckpt_path}")
+            wandb.save(ckpt_path)
+
+        model.train()
+
 
 if __name__ == '__main__':
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
-    
     parser = argparse.ArgumentParser()
     parser.add_argument('--bs', type = int, default = 80, help = 'batch size')
     parser.add_argument('--lr', type = float, default = 2e-5, help = 'learning rate for training')
@@ -140,7 +225,7 @@ if __name__ == '__main__':
     parser.add_argument('--debug', action = 'store_true', default = False, help = 'debug = True means using a smaller dataloader')
     parser.add_argument('--few_shot_ratio', type = float, default = 1.0, help = 'measuring the low-data setting')
     parser.add_argument('--save_every', type = int, default = 1, help = 'save weights every n epochs')
-    parser.add_argument('--prefix', default = 'vietnamese', help = 'prefix name for saved weights')
+    parser.add_argument('--prefix', default = 'coco_prefix', help = 'prefix name for saved weights')
     parser.add_argument('--path_of_datasets', default = './annotations/coco/coco_with_entities.pickle')
     parser.add_argument('--out_dir', default = './checkpoints', help = 'the path of output')
     parser.add_argument('--normalize_prefix', dest = 'normalize_prefix', type = int, default = True, help = 'normalizing prefix')
@@ -150,22 +235,24 @@ if __name__ == '__main__':
     parser.add_argument('--num_workers', type = int, default = 0)
     parser.add_argument('--use_amp', action = 'store_true', default = False, help = "whether to use torch.amp to acclerate training")
     parser.add_argument('--disable_random_seed', action = 'store_true', default = False, help = 'set random seed for reproducing')
-    parser.add_argument('--random_seed', type = int, default = 42, help = 'set random seed for reproducing')
-
+    parser.add_argument('--random_seed', type = int, default = 30, help = 'set random seed for reproducing')
+    
     args = parser.parse_args()
     print(f'args: {vars(args)}')
     if not args.disable_random_seed:
         set_seed(args.random_seed)
 
-    # load models
-    # clip_encoder = CLIPEncoder(args.clip_model, device=args.device)
-    gpt_model = GPT2LanguageModel(model_name=args.language_model, device=args.device)
+    # setting wandb
+    run = wandb.init(
+        project="ViECAP Model Training",
+        name=f"{args.prefix}-lr{args.lr}-bs{args.bs}-ep{args.epochs}",
+        config=vars(args)
+    )
     
     clip_hidden_size = 1024
 
     datasets = CaptionsDataset(
-        lm = gpt_model,
-        clip_model = args.clip_model,
+        language_model = args.language_model,
         max_num_of_entities = args.max_num_of_entities,
         using_clip_features = args.using_clip_features,
         path_of_datasets = args.path_of_datasets,
@@ -214,14 +301,6 @@ if __name__ == '__main__':
     if args.frozen_gpt:
         model = ClipCaptionPrefix(args.continuous_prompt_length, args.clip_project_length, clip_hidden_size, args.num_layers, gpt_type = args.language_model, soft_prompt_first = args.soft_prompt_first, only_hard_prompt = args.only_hard_prompt)
     else:
-        model = ClipCaptionModel(
-            continuous_length=args.continuous_prompt_length,
-            clip_project_length=args.clip_project_length,
-            clip_hidden_size=clip_hidden_size,
-            num_layers=args.num_layers,
-            gpt_model=gpt_model,                        # truyền model object
-            soft_prompt_first=args.soft_prompt_first,
-            only_hard_prompt=args.only_hard_prompt
-        ).to(args.device)
+        model = ClipCaptionModel(args.continuous_prompt_length, args.clip_project_length, clip_hidden_size, args.num_layers, gpt_type = args.language_model, soft_prompt_first = args.soft_prompt_first, only_hard_prompt = args.only_hard_prompt)
     
     train(args, datasets, model, output_dir = args.out_dir, output_prefix = args.prefix)

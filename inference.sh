@@ -7,12 +7,31 @@ echo "Running entity extraction and text features extraction..."
 #   --top_k 5 \
 #   --mode visual
 
-
-python infer_instance.py \
-  --image_path ./dataset/Flick_sportball/images/111796099.jpg \
-  --weight_path ./checkpoints/viecap_vi_mask20/vietnamese-007.pt \
+python inference.py \
+  --image_path ./dataset/Flick_sportball/images/486852199.jpg \
+  --weight_path ./checkpoints/viecap_vietnamese/uiit-vietnamses_latest.pt \
   --detector_config ./src/config/detector.yaml \
-  --continuous_prompt_length 15 \
-  --clip_project_length 15 \
-  --soft_prompt_first \
-  --device cpu
+  --clip_model BAAI/AltCLIP-m18 \
+  --language_model NlpHUST/gpt2-vietnamese \
+  --using_hard_prompt \
+  --continuous_prompt_length 10 \
+  --clip_project_length 10 \
+  --num_layers 10 \
+  --device cpu \
+  --mode detect
+  
+  python inference.py \
+  --image_path ./dataset/Flick_sportball/images/486852199.jpg \
+  --weight_path ./checkpoints/viecap_vietnamese/uiit-vietnamses_latest.pt \
+  --clip_model BAAI/AltCLIP-m18 \
+  --language_model NlpHUST/gpt2-vietnamese \
+  --path_of_entities ./src/config/vietnamese_entities.json \
+  --path_of_entities_embeddings ./dataset/vietnamese_entities_embeddings.pickle \
+  --name_of_entities_text vietnamese_entities \
+  --using_hard_prompt \
+  --continuous_prompt_length 10 \
+  --clip_project_length 10 \
+  --num_layers 10 \
+  --top_k 3 \
+  --device cpu \
+
