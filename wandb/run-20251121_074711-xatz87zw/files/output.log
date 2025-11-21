@@ -537,6 +537,7 @@ epoch 57, iter 419, avg loss: 0.327074265905789
 >>> Epoch 57 avg loss: 0.32306414545290263
 Saving checkpoint → ./checkpoints/viecap_vietnamese/uiit-vietnamses-0057.pt
 >>> Training epoch 58
-uiit-vietnamses:  55%|█████▍    | 231/421 [01:46<01:27,  2.18it/s, loss=0.304]
+uiit-vietnamses:  77%|███████▋  | 326/421 [02:31<00:46,  2.02it/s, loss=0.296]
 epoch 58, iter 83, avg loss: 0.31521073498186614
 epoch 58, iter 167, avg loss: 0.3189492356919107
+epoch 58, iter 251, avg loss: 0.3253667714695136
