@@ -19,16 +19,16 @@ echo "Training model ..."
 python train.py \
   --using_clip_features \
   --using_hard_prompt \
-  --prefix "uiit-vietnamses" \
-  --bs 32 \
+  --prefix "uiit-vietnamses-20" \
+  --bs 16 \
   --lr 5e-5 \
-  --epochs 100 \
+  --epochs 75 \
   --device cuda:0 \
   --clip_model "BAAI/AltCLIP-m18" \
   --language_model NlpHUST/gpt2-vietnamese \
   --num_layers 10 \
-  --continuous_prompt_length 10 \
-  --clip_project_length 10 \
+  --continuous_prompt_length 20 \
+  --clip_project_length 20 \
   --out_dir ./checkpoints/$EXP_NAME \
   --path_of_datasets annotations/uit_viic_entities_with_features.pkl \
   --name_of_objects_vocabs vietnamese_entities \

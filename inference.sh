@@ -8,7 +8,7 @@ echo "Running entity extraction and text features extraction..."
 #   --mode visual
 
 python inference.py \
-  --image_path ./dataset/Flick_sportball/images/486852199.jpg \
+  --image_path ./dataset/Flick_sportball/images/4021371346.jpg \
   --weight_path ./checkpoints/viecap_vietnamese/uiit-vietnamses_latest.pt \
   --detector_config ./src/config/detector.yaml \
   --clip_model BAAI/AltCLIP-m18 \
@@ -21,7 +21,7 @@ python inference.py \
   --mode detect
   
   python inference.py \
-  --image_path ./dataset/Flick_sportball/images/486852199.jpg \
+  --image_path ./dataset/Flick_sportball/images/4021371346.jpg \
   --weight_path ./checkpoints/viecap_vietnamese/uiit-vietnamses_latest.pt \
   --clip_model BAAI/AltCLIP-m18 \
   --language_model NlpHUST/gpt2-vietnamese \

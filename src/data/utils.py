@@ -68,7 +68,7 @@ def compose_discrete_prompts(
             discrete_prompt += ' ' + entity + ','     # ' person, dog, park,'
         discrete_prompt = discrete_prompt[:-1]        # ' person, dog, park'
         discrete_prompt = prompt_head + discrete_prompt + prompt_tail # 'There are person, dog, park in image.'
-    print(discrete_prompt)
+    # print(discrete_prompt)
     entities_tokens = torch.tensor(tokenizer.encode(discrete_prompt))   # (discrete_prompt_length, ) 
 
     return entities_tokens

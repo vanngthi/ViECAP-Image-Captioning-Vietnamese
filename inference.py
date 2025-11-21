@@ -1,4 +1,13 @@
-import clip
+import warnings
+warnings.filterwarnings("ignore")
+
+import logging as py_logging
+py_logging.getLogger().setLevel(py_logging.CRITICAL)
+
+from transformers import logging as hf_logging
+hf_logging.set_verbosity_error()
+hf_logging.disable_progress_bar()
+
 import torch
 import argparse
 from PIL import Image
@@ -43,7 +52,7 @@ def main(args) -> None:
     image_features = F.normalize(image_features, dim=-1)
     
     # prepare embeddings and hard prompt
-    print("Start] Preparing embeddings...")
+    print("[Start] Preparing embeddings...")
     continuous_embeddings = model.mapping_network(image_features).view(-1, args.continuous_prompt_length, model.gpt_hidden_size)
     
     if args.mode == "original":
@@ -77,7 +86,7 @@ def main(args) -> None:
         elif args.mode == "detect":
             detected_objects = list(detector.detect(image))
             
-        print("Objects in Image:", detected_objects)
+        print("[Objects in Image]", detected_objects)
         discrete_tokens = compose_discrete_prompts(tokenizer, detected_objects).unsqueeze(dim = 0).to(args.device)
 
         discrete_embeddings = model.word_embed(discrete_tokens)
@@ -102,7 +111,7 @@ def main(args) -> None:
         sentence = opt_search(prompts=args.text_prompt, embeddings = embeddings, tokenizer = tokenizer, beam_width = args.beam_width, model = model.gpt)
         sentence=sentence[0]
     
-    print(f'[CAPTION]: {sentence}')
+    print(f'[CAPTION] {sentence}')
     
     
 if __name__ == '__main__':

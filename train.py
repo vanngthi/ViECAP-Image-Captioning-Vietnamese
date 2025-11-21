@@ -195,7 +195,7 @@ def train(
             ckpt_path = os.path.join(output_dir, f"{output_prefix}-00{epoch}.pt")
             torch.save(model.state_dict(), ckpt_path)
             print(f"Saving checkpoint → {ckpt_path}")
-            wandb.save(ckpt_path)
+            # wandb.save(ckpt_path)
 
         model.train()
 
