@@ -178,7 +178,7 @@ def train(
 
                 latest_ckpt = os.path.join(output_dir, f"{output_prefix}_latest.pt")
                 torch.save(model.state_dict(), latest_ckpt)
-                wandb.save(latest_ckpt)
+                # wandb.save(latest_ckpt)
 
         progress.close()
 
@@ -244,7 +244,8 @@ if __name__ == '__main__':
 
     # setting wandb
     run = wandb.init(
-        project="ViECAP Model Training",
+        entity="vannt263-vais",
+        project="ViECAP - Vietnamese",
         name=f"{args.prefix}-lr{args.lr}-bs{args.bs}-ep{args.epochs}",
         config=vars(args)
     )

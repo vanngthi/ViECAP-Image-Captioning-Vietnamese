@@ -1,13 +1,3 @@
-import warnings
-warnings.filterwarnings("ignore")
-
-import logging as py_logging
-py_logging.getLogger().setLevel(py_logging.CRITICAL)
-
-from transformers import logging as hf_logging
-hf_logging.set_verbosity_error()
-hf_logging.disable_progress_bar()
-
 import torch
 import argparse
 from PIL import Image
