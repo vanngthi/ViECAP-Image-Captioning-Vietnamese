@@ -1,62 +1,53 @@
 #!/bin/bash
 
-# ================================
-# CONFIG chung
-# ================================
-WEIGHT="./checkpoints/viecap_vietnamese/uiit-vietnamses_latest.pt"
-CLIP_MODEL="BAAI/AltCLIP-m18"
-LANGUAGE_MODEL="NlpHUST/gpt2-vietnamese"
-DEVICE="cpu"
+# echo "Extract features..."
 
-IMG_DIR="./dataset/UIT-ViIC/images"
-GT_JSON="./dataset/UIT-ViIC/uitviic_captions_val2017.json"
-SAVE_DIR="./eval_results"
-
-
-# ================================
-# MODE 1 — DETECTOR MODE
-# ================================
-echo "==========================================="
-echo "   RUNNING EVALUATION — MODE: detect"
-echo "==========================================="
-
-python evaluation.py \
-  --weight_path $WEIGHT \
-  --clip_model $CLIP_MODEL \
-  --language_model $LANGUAGE_MODEL \
-  --detector_config ./src/config/detector.yaml \
-  --using_hard_prompt \
-  --continuous_prompt_length 10 \
-  --clip_project_length 10 \
-  --num_layers 10 \
-  --device $DEVICE \
-  --mode detect \
-  --coco_images_dir $IMG_DIR \
-  --coco_gt_json $GT_JSON \
-  --save_dir $SAVE_DIR/detect_mode
+# python -m src.data.extract_image_features --model BAAI/AltCLIP-m18 \
+#                                           --device cpu \
+#                                           --dataset_path ./dataset/UIT-ViIC/uitviic_captions_val2017.json \
+#                                           --img_folder ./dataset/UIT-ViIC/images \
+#                                           --path_of_entities_embeddings ./dataset/vietnamese_entities_embeddings.pickle \
+#                                           --name_of_entities_text vietnamese_entities \
+#                                           --path_of_entities ./src/config/vietnamese_entities.json \
+#                                           --output_path ./annotations/uit_viic_val_with_features_original.pkl \
+#                                           --entity_mode original
+                                          
+# python -m src.data.extract_image_features --model BAAI/AltCLIP-m18 \
+#                                           --device cpu \
+#                                           --dataset_path ./dataset/UIT-ViIC/uitviic_captions_val2017.json \
+#                                           --img_folder ./dataset/UIT-ViIC/images \
+#                                           --detector_config ./src/config/detector.yaml \
+#                                           --output_path ./annotations/uit_viic_val_with_features_detect.pkl \
+#                                           --entity_mode detect
+  
 
 
-# ================================
-# MODE 2 — ORIGINAL MODE (ENTITIES)
-# ================================
-echo "==========================================="
-echo "   RUNNING EVALUATION — MODE: original"
-echo "==========================================="
+python ./evaluation.py \
+    --pickle ./annotations/uit_viic_val_with_features_detect.pkl \
+    --out_csv ./annotations/uit_viic_detect.csv  \
+    --device cuda:0 \
+    --language_model NlpHUST/gpt2-vietnamese \
+    --weight_path ./checkpoints/viecap_vietnamese_20/uiit-vietnamses-20_latest.pt \
+    --continuous_prompt_length 20 \
+    --clip_project_length 20 \
+    --clip_hidden_size 1024 \
+    --num_layers 10 \
+    --using_hard_prompt \
+    --beam_width 5 \
+    --batch_size 516
 
-python evaluation.py \
-  --weight_path $WEIGHT \
-  --clip_model $CLIP_MODEL \
-  --language_model $LANGUAGE_MODEL \
-  --path_of_entities ./src/config/vietnamese_entities.json \
-  --path_of_entities_embeddings ./dataset/vietnamese_entities_embeddings.pickle \
-  --name_of_entities_text vietnamese_entities \
-  --using_hard_prompt \
-  --continuous_prompt_length 10 \
-  --clip_project_length 10 \
-  --num_layers 10 \
-  --top_k 3 \
-  --device $DEVICE \
-  --mode original \
-  --coco_images_dir $IMG_DIR \
-  --coco_gt_json $GT_JSON \
-  --save_dir $SAVE_DIR/original_mode
+
+
+python ./evaluation.py \
+    --pickle ./annotations/uit_viic_val_with_features_original.pkl \
+    --out_csv ./annotations/uit_viic_original.csv \
+    --device cuda:0 \
+    --language_model NlpHUST/gpt2-vietnamese \
+    --weight_path ./checkpoints/viecap_vietnamese_20/uiit-vietnamses-20_latest.pt \
+    --continuous_prompt_length 20 \
+    --clip_project_length 20 \
+    --clip_hidden_size 1024 \
+    --num_layers 10 \
+    --using_hard_prompt \
+    --beam_width 5 \
+    --batch_size 516

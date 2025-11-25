@@ -1,93 +1,28 @@
-import os
-import json
-from tqdm import tqdm
-from pycocotools.coco import COCO
-from pycocoevalcap.eval import COCOEvalCap
-
+import argparse
+import pickle
+import csv
 import torch
-from PIL import Image
-import torch.nn.functional as F
-from transformers import AutoTokenizer, AutoProcessor, AutoModel
+from tqdm import tqdm
 
-# ===== IMPORT model và utils của bạn =====
+from transformers import AutoTokenizer
+
 from src.models.ClipCap import ClipCaptionModel
+from src.data.search import greedy_search, beam_search, opt_search
 from src.data.utils import compose_discrete_prompts
-from src.data.load_annotations import load_entities_text
-from src.detector.detection import ObjectDetector
-from src.data.search import greedy_search, beam_search
-from src.data.retrieval_categories import clip_texts_embeddings, image_text_simiarlity, top_k_categories
 
 
-# ====================================================
-# 1. API INFERENCE ĐƠN GIẢN – GỌI ẢNH → TRẢ VỀ CAPTION
-# ====================================================
+# ============================================================
+#   STEP 1 — Generate captions with BATCH soft-prompt
+# ============================================================
 @torch.no_grad()
-def generate_caption(model, encoder, processor, tokenizer, args, image_path):
-    device = args.device
-    image = Image.open(image_path).convert("RGB")
-    
-    # Encode image
-    inputs = processor(images=image, return_tensors="pt").to(device)
-    image_features = encoder.get_image_features(**inputs)
-    image_features = F.normalize(image_features, dim=-1)
+def generate_predictions(args):
 
-    # Continuous prompt
-    continuous_embeddings = model.mapping_network(image_features).view(
-        -1, args.continuous_prompt_length, model.gpt_hidden_size
-    )
+    # ==== Load dataset ====
+    dataset = pickle.load(open(args.pickle, "rb"))
+    print(f"[Loaded pickle] {len(dataset)} samples")
 
-    # Choose ORIGINAL or DETECT mode
-    if args.using_hard_prompt:
-        if args.mode == "original":
-            entities_text = args.entities_text
-            texts_embeddings = args.texts_embeddings
-
-            logits = image_text_simiarlity(
-                texts_embeddings,
-                temperature=args.temperature,
-                images_features=image_features
-            )
-            detected_objects, _ = top_k_categories(
-                entities_text, logits, args.top_k, args.threshold
-            )
-            detected_objects = detected_objects[0]
-        else:
-            detected_objects = list(args.detector.detect(image))
-
-        discrete_tokens = compose_discrete_prompts(tokenizer, detected_objects)
-        discrete_tokens = discrete_tokens.unsqueeze(0).to(device)
-        discrete_embeddings = model.word_embed(discrete_tokens)
-
-        # merge
-        if args.only_hard_prompt:
-            embeddings = discrete_embeddings
-        elif args.soft_prompt_first:
-            embeddings = torch.cat((continuous_embeddings, discrete_embeddings), dim=1)
-        else:
-            embeddings = torch.cat((discrete_embeddings, continuous_embeddings), dim=1)
-    else:
-        embeddings = continuous_embeddings
-
-    # BEAM or GREEDY
-    if not args.using_greedy_search:
-        out = beam_search(embeddings, tokenizer, args.beam_width, model.gpt)[0]
-    else:
-        out = greedy_search(embeddings, tokenizer, model.gpt)
-
-    return out
-
-
-# ====================================================
-# 2. EVALUATION LOOP
-# ====================================================
-def evaluate_coco(args):
-
-    coco = COCO(args.coco_gt_json)
-
-    # Load model / processor / etc.
+    # ==== Load tokenizer + caption model ====
     tokenizer = AutoTokenizer.from_pretrained(args.language_model)
-    processor = AutoProcessor.from_pretrained(args.clip_model)
-    encoder = AutoModel.from_pretrained(args.clip_model).to(args.device).eval()
 
     model = ClipCaptionModel(
         continuous_length=args.continuous_prompt_length,
@@ -98,93 +33,189 @@ def evaluate_coco(args):
         soft_prompt_first=args.soft_prompt_first,
         only_hard_prompt=args.only_hard_prompt,
     )
+
     model.load_state_dict(
         torch.load(args.weight_path, map_location=args.device),
         strict=False
     )
     model.to(args.device).eval()
 
-    # Preload entities if mode == "original"
-    if args.mode == "original":
-        args.entities_text = load_entities_text(
-            args.name_of_entities_text,
-            args.path_of_entities,
-            not args.disable_all_entities
-        )
-        args.texts_embeddings = clip_texts_embeddings(
-            args.entities_text, args.path_of_entities_embeddings
-        )
-    else:
-        args.detector = ObjectDetector(args.detector_config, args.device)
+    # ==== Prepare CSV (prediction only) ====
+    with open(args.out_csv, "w", newline="", encoding="utf8") as f:
+        writer = csv.writer(f, quoting=csv.QUOTE_ALL)   # prevent comma split
+        writer.writerow(["image_id", "pred_caption"])
 
-    results = []
+        B = args.batch_size
 
-    img_ids = coco.getImgIds()
-    for img_id in tqdm(img_ids):
-        img_info = coco.loadImgs(img_id)[0]
-        file_name = img_info['file_name']
-        img_path = os.path.join(args.coco_images_dir, file_name)
+        # ==== Loop batches ====
+        for idx in tqdm(range(0, len(dataset), B), desc="Batch inference"):
+            batch_items = dataset[idx: idx + B]
+            batch_len = len(batch_items)
 
-        caption = generate_caption(
-            model, encoder, processor, tokenizer, args, img_path
-        )
-        results.append({
-            "image_id": img_id,
-            "caption": caption
-        })
+            # ======= 1) Batch soft prompt =======
+            image_features_batch = torch.stack([
+                torch.tensor(item["image_features"])
+                for item in batch_items
+            ]).to(args.device)
 
-    # Save results
-    os.makedirs(args.save_dir, exist_ok=True)
-    result_json = os.path.join(args.save_dir, "captions_results.json")
-    with open(result_json, "w") as f:
-        json.dump(results, f, indent=2)
+            continuous_embeddings = model.mapping_network(image_features_batch)
+            continuous_embeddings = continuous_embeddings.view(
+                batch_len,
+                args.continuous_prompt_length,
+                model.gpt_hidden_size
+            )
 
-    # Run COCO evaluation
-    coco_res = coco.loadRes(result_json)
+            # ======= 2) Generate per item =======
+            for bi in range(batch_len):
+                item = batch_items[bi]
+                ce = continuous_embeddings[bi:bi+1]  # (1, L, H)
 
-    coco_eval = COCOEvalCap(coco, coco_res)
-    coco_eval.evaluate()
+                # ---- Hard prompt ----
+                entities = item["entities"]
+                if args.using_hard_prompt and len(entities) > 0:
 
-    print("\n===== COCO EVALUATION RESULTS =====")
-    for metric, score in coco_eval.eval.items():
-        print(f"{metric}: {score:.4f}")
+                    discrete_tokens = compose_discrete_prompts(
+                        tokenizer,
+                        entities
+                    ).unsqueeze(0).to(args.device)
+
+                    discrete_embeddings = model.word_embed(discrete_tokens)
+
+                    if args.only_hard_prompt:
+                        embeddings = discrete_embeddings
+                    elif args.soft_prompt_first:
+                        embeddings = torch.cat([ce, discrete_embeddings], dim=1)
+                    else:
+                        embeddings = torch.cat([discrete_embeddings, ce], dim=1)
+                else:
+                    embeddings = ce
+
+                # ---- Generate caption ----
+                if "gpt" in args.language_model:
+                    if args.using_greedy_search:
+                        pred = greedy_search(
+                            embeddings=embeddings,
+                            tokenizer=tokenizer,
+                            model=model.gpt
+                        )
+                    else:
+                        pred = beam_search(
+                            embeddings=embeddings,
+                            tokenizer=tokenizer,
+                            model=model.gpt,
+                            beam_width=args.beam_width
+                        )[0]
+                else:
+                    pred = opt_search(
+                        prompts=args.text_prompt,
+                        embeddings=embeddings,
+                        tokenizer=tokenizer,
+                        model=model.gpt,
+                        beam_width=args.beam_width
+                    )[0]
+
+                writer.writerow([item["image_id"], pred])
+
+    print(f"[Saved predictions] {args.out_csv}")
 
 
+# ============================================================
+#   STEP 2 — COCOEvalCap with FULL MULTI-GT
+# ============================================================
+def evaluate_csv(args):
+    import json
+    from pycocotools.coco import COCO
+    from pycocoevalcap.eval import COCOEvalCap
 
-# ====================================================
-# MAIN
-# ====================================================
+    # ===== LOAD PREDICTIONS =====
+    preds = []
+    with open(args.out_csv, "r", encoding="utf8") as f:
+        reader = csv.reader(f)
+        next(reader)  # skip header
+        for row in reader:
+            img_id = row[0]
+            pred = row[1]
+            preds.append({"image_id": img_id, "caption": pred})
+
+    # ===== LOAD GT FROM PICKLE =====
+    dataset = pickle.load(open(args.pickle, "rb"))
+
+    gt_annotations = []
+    gt_images = []
+    ann_id = 0
+
+    for item in dataset:
+        img_id = item["image_id"]
+
+        # Add to "images" list
+        gt_images.append({"id": img_id})
+
+        # Add all GT captions
+        for cap in item["captions"]:
+            gt_annotations.append({
+                "image_id": img_id,
+                "id": ann_id,
+                "caption": cap
+            })
+            ann_id += 1
+
+    # ===== SAVE JSON FILES =====
+    pred_json = args.out_csv.replace(".csv", "_pred.json")
+    gt_json   = args.out_csv.replace(".csv", "_gt.json")
+
+    # Save pred.json (list)
+    json.dump(preds, open(pred_json, "w", encoding="utf8"), ensure_ascii=False)
+
+    # Save gt.json (COCO format)
+    json.dump({
+        "images": gt_images,
+        "annotations": gt_annotations
+    }, open(gt_json, "w", encoding="utf8"), ensure_ascii=False)
+
+    print("[Evaluating with full GT captions...]")
+
+    # ===== RUN COCO EVAL =====
+    coco = COCO(gt_json)
+    coco_res = coco.loadRes(pred_json)
+
+    evaluator = COCOEvalCap(coco, coco_res)
+    evaluator.evaluate()
+
+    print("\n=== Evaluation Results (COCOEvalCap) ===")
+    for k, v in evaluator.eval.items():
+        print(f"{k}: {v:.4f}")
+
+# ============================================================
+#   MAIN
+# ============================================================
 if __name__ == "__main__":
-    import argparse
-
     parser = argparse.ArgumentParser()
+
+    parser.add_argument("--pickle", required=True)
+    parser.add_argument("--out_csv", required=True)
     parser.add_argument("--device", default="cuda:0")
-    parser.add_argument("--clip_model", default="ViT-B/32")
-    parser.add_argument("--language_model", default="gpt2")
-    parser.add_argument("--continuous_prompt_length", type=int, default=10)
-    parser.add_argument("--clip_project_length", type=int, default=10)
-    parser.add_argument("--clip_hidden_size", type=int, default=1024)
-    parser.add_argument("--num_layers", type=int, default=8)
-    parser.add_argument("--weight_path", default="./checkpoints/coco_prefix-0014.pt")
+
+    # Model parameters
+    parser.add_argument("--language_model", required=True)
+    parser.add_argument("--weight_path", required=True)
+    parser.add_argument("--continuous_prompt_length", type=int, required=True)
+    parser.add_argument("--clip_project_length", type=int, required=True)
+    parser.add_argument("--clip_hidden_size", type=int, required=True)
+    parser.add_argument("--num_layers", type=int, required=True)
+
+    # Prompt configs
     parser.add_argument("--using_hard_prompt", action="store_true")
-    parser.add_argument("--soft_prompt_first", action="store_true")
     parser.add_argument("--only_hard_prompt", action="store_true")
+    parser.add_argument("--soft_prompt_first", action="store_true")
+
+    # Decoding config
     parser.add_argument("--using_greedy_search", action="store_true")
     parser.add_argument("--beam_width", type=int, default=5)
 
-    # entity / detection
-    parser.add_argument("--mode", default="original")
-    parser.add_argument("--path_of_entities", default="./src/config/vietnamese_entities.json")
-    parser.add_argument("--path_of_entities_embeddings", default="./dataset/entities_embeddings.pickle")
-    parser.add_argument("--name_of_entities_text", default="vietnamese_entities")
-    parser.add_argument("--detector_config", default="./src/config/detector.yaml")
-    parser.add_argument("--disable_all_entities", action="store_true")
-
-    # COCO evaluation
-    parser.add_argument("--coco_images_dir", default="./coco/val2017/")
-    parser.add_argument("--coco_gt_json", default="./coco/annotations/captions_val2017.json")
-    parser.add_argument("--save_dir", default="./eval_results/")
+    # Batch size
+    parser.add_argument("--batch_size", type=int, default=32)
 
     args = parser.parse_args()
 
-    evaluate_coco(args)
+    generate_predictions(args)
+    evaluate_csv(args)
