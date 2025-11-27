@@ -63,8 +63,8 @@ Thống kê dữ liệu:
 1. Trích xuất thực thể trong tập training, tạo file pickle lưu [[entities], caption]
 2. Embedding caption, tạo file pickle lưu [[entities], caption, caption_embedding]
 
-
 ### Training
-
+3. bash train.sh
 ### Eval
+4. bash eval.sh
 
